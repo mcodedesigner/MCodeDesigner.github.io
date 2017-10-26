@@ -1,0 +1,246 @@
+@font-face {
+	font-family: 'playfair_regular';
+	src: url('../fonts/playfair/playfair_regular-webfont.eot');
+	src: url('../fonts/playfair/playfair_regular-webfont.eot?#iefix') format('embedded-opentype'),
+			 url('../fonts/playfair/playfair_regular-webfont.woff2') format('woff2'),
+			 url('../fonts/playfair/playfair_regular-webfont.woff') format('woff'),
+			 url('../fonts/playfair/playfair_regular-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+  font-family: 'playfair_italic';
+  src: url('../fonts/playfair/playfair_display_italic-webfont.eot');
+  src: url('../fonts/playfair/playfair_display_italic-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/playfair/playfair_display_italic-webfont.woff2') format('woff2'),
+       url('../fonts/playfair/playfair_display_italic-webfont.woff') format('woff'),
+       url('../fonts/playfair/playfair_display_italic-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+	font-family: 'linux_libertine_regular';
+	src: url('../fonts/linuxlibertine/linlibertine_r-webfont.eot');
+	src: url('../fonts/linuxlibertine/linlibertine_r-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('../fonts/linuxlibertine/linlibertine_r-webfont.woff2') format('woff2'),
+	     url('../fonts/linuxlibertine/linlibertine_r-webfont.woff') format('woff'),
+	     url('../fonts/linuxlibertine/linlibertine_r-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.main-content {
+	background-color: #fff;
+	max-width: 2000px;
+	margin: 0 auto 20px;
+	padding-bottom: 15px;
+	box-shadow: 0 0 50px rgba(0,0,0,.3);
+	font: 16px 'linux_libertine_regular';
+}
+.main-content p {
+	padding-bottom: 23px;
+  font-family: 'linux_libertine_regular', Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+
+/*Gallary Grid*/
+.gallery-grid {
+	max-width: 2000px;
+	margin-top: 40px;
+}
+.grid-item,
+.grid-sizer {
+	width: 25%;
+	height: 396px;
+	overflow: hidden;
+}
+.grid-item.w-50 {
+	width: 50%;
+}
+.grid-item.w-100 {
+	width: 100%;
+}
+.grid-item img {
+	display: block;
+	width: 100%;
+}
+
+.gallery-grid.photo {
+	max-width: 1464px;
+	margin: 0 auto 40px;
+}
+.gallery-grid.photo .grid-item,
+.gallery-grid.photo .grid-sizer {
+	height: auto;
+}
+.gallery-grid.photo > div {
+	padding: 16px;
+	padding-bottom: 18px;
+}
+
+
+.align-outer {
+	position: relative;
+	height: 100%;
+}
+.align-inner {
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.author-box {
+	height: 396px;
+	background-color: #fff;
+	font-family: 'playfair_regular', Arial, Helvetica, sans-serif;
+	letter-spacing: 1px;
+	text-align: center;
+}
+.common_subtitle {
+	display: block;
+  color: #9f9f9f;
+  font-size: 14px;
+  text-align: center;
+  font-family: 'playfair_italic';
+}
+.common_h2 {
+	font-size: 28px;
+	text-transform: uppercase;
+	padding-top: 16px;
+	line-height: 1;
+	font-weight: normal;
+	position: relative;
+	text-align: center;
+}
+.common_h2:after {
+	content: '';
+	width: 50px;
+	height: 1px;
+	background-color: #cbbeb9;
+	display: block;
+	margin: 34px auto;
+}
+.common_h2.none_line {
+	padding-bottom: 12px;
+}
+.common_h2.none_line:after {
+	display: none;
+}
+.common_text {
+    font-family: 'linux_libertine_regular';
+}
+
+.color-box {
+	margin-bottom: 60px;
+}
+.color-box > div {
+	width: 20%;
+	height: 86px;
+	float: left;
+}
+
+
+.read-box {
+	padding-bottom: 25px;
+}
+.read-box .row {
+	width: 870px;
+	margin: 0 auto;
+}
+.read-box .col-md-6 {
+	padding: 0;
+}
+.read-box .col-md-6:first-child {
+	padding-right: 35px;
+}
+.read-box .col-md-6:last-child {
+	padding-left: 35px;
+}
+
+
+.review-article {
+  width: 886px;
+  line-height: 1.5;
+  text-align: center;
+  margin: 0 auto 50px;
+}
+
+.video-box {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.size-video {
+	width: 100%;
+	height: 684px;
+}
+
+.square-element {
+	display: block;
+	height: 12px;
+	position: relative;
+	margin: 15px 0;
+}
+.square-element:after {
+	content: '';
+	background-color: #cbbeb9;
+	display: block;
+	position: absolute;
+	height: 12px;
+	width: 12px;
+	left: 50%;
+	bottom: 0;
+	margin-left: -6px;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+.common_button {
+	display: block;
+  width: 279px;
+  height: 57px;
+  margin: 36px auto;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 57px;
+  position: relative;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  font-family: 'linux_libertine_regular', Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  z-index: 1;
+  background: url(../img/bthover.png);
+  background-size: 279px 57px;
+}
+.common_button:hover {
+	color: #cbbeb9;
+	text-decoration: none;
+}
+.common_button:active {
+	color: blue;
+	-webkit-transition: none;
+	transition: none;
+}
+.common_button:before {
+  content: '';
+  height: 57px;
+  width: 279px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  background: url(../img/bt.png);
+  background-size: 279px 57px;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  background-size: 279px 57px;
+  opacity: 1;
+}
+.common_button:hover:before {
+  opacity: 0;
+}
