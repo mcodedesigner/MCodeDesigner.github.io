@@ -1,0 +1,18 @@
+// base
+@import "base/colors";
+@import "base/normalize";
+@import "base/fonts";
+@import "base/base";
+@import "base/utilities";
+
+// libs
+@import "libs/owl-carousel/owl.carousel.scss";
+@import "libs/owl-carousel/owl.theme.default.scss";
+
+// layout
+@import "layout/catalog";
+@import "layout/content";
+@import "layout/ui";
+
+// media
+@import "media/media";

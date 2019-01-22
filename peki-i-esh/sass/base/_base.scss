@@ -1,0 +1,110 @@
+// Default
+body {
+	min-width: 320px;
+	font: 16px/1.4 'PantonRegular', sans-serif;
+	color: #333;
+	overflow-x: hidden;
+}
+
+a {
+	color: $color-pink;
+	transition: .5s;
+	position: relative;
+
+	&:hover {
+		color: $color-blue;
+	}
+	&:active {
+		top: 1px;
+		text-decoration: none;
+		transition: none;
+		color: darken($color-blue, 20%);
+	}
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0 0 15px;
+	font-family: 'PantonBold';
+}
+h2 {
+	font-size: 30px;
+	text-align: center;
+}
+h3 {
+	font-size: 20px;
+}
+ul, ol {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+p {
+	margin: 0;
+}
+
+hr {
+	margin: 0;
+	border: 0;
+}
+
+
+// Forms placeholder
+*::-webkit-input-placeholder {
+	color: $color-dark;
+	opacity: 1;
+	transition: .5s;
+}
+*:-moz-placeholder {
+	color: $color-dark;
+	opacity: 1;
+	transition: .5s;
+}
+*::-moz-placeholder {
+	color: $color-dark;
+	opacity: 1;
+	transition: .5s;
+}
+*:-ms-input-placeholder {
+	color: $color-dark;
+	opacity: 1;
+	transition: .5s;
+}
+// Forms placeholder focus
+*:focus::-webkit-input-placeholder {
+	opacity: .5;
+}
+*:focus:-moz-placeholder {
+	opacity: .5;
+}
+*:focus::-moz-placeholder {
+	opacity: .5;
+}
+*:focus:-ms-input-placeholder {
+	opacity: .5;
+}
+
+// Forms input
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"] {
+	height: 36px;
+	border: 1px solid $color-orange;
+	background: #fff;
+	font: 20px 'PantonRegular';
+	margin: 0 38px;
+	vertical-align: top;
+	border-radius: 5px;
+	transition: .5s;
+	padding: 0 25px;
+
+	&:focus {
+		outline: none;
+		transform: scale(1.1);
+		border-color: $color-blue;
+	}
+
+	&:hover {
+		border-color: $color-blue;
+	}
+}

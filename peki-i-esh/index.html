@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+
+	<!-- base -->
+	<meta charset="utf-8">
+	<title>Пеки и Ешь – всё, что нужно для выпечки!</title>
+	<meta name="description" content="">
+
+	<!-- favicon -->
+	<link rel="shortcut icon" href="img/favicon/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+
+	<!-- viewport -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link rel="stylesheet" href="libs/bootstrap-3.3.5-dist/css/bootstrap.min.css">
+	
+	<!-- style css -->
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<a href="#" class="write-to-us">напишите нам</a>
+
+<div class="user-bar">
+	<a href="#" data-tooltip="Корзина" data-tooltip-location="left"><i class="i-cart"></i><span class="user-bar-info">0</span></a>
+	<a href="#" data-tooltip="Избранное" data-tooltip-location="left"><i class="i-heart"></i><span class="user-bar-info">1</span></a>
+	<a href="#" data-tooltip="Cравнение" data-tooltip-location="left"><i class="i-comparison"></i></a>
+	<a href="#" data-tooltip="Личный кабинет" data-tooltip-location="left"><i class="i-unlock"></i></a>
+</div>
+
+<div class="sandwich-box" id="sandwich-1">
+	<span class="sandwich-icon">
+		<i class="sandwich-top"></i>
+		<i class="sandwich-center"></i>
+		<i class="sandwich-bottom"></i>
+	</span>
+</div>
+
+<div class="wrapper-header">
+	<section class="s-top">
+		<div class="container">
+			<div class="your-city"><i class="i-loc"></i>Ваш город: <a href="#">Калининград</a></div>
+			<nav class="main-nav">
+				<a href="#">О магазине</a>
+				<a href="#">Акции</a>
+				<a href="#">Статьи</a>
+				<a href="#">Оплата и Доставка</a>
+				<a href="#">Отзывы</a>
+				<a href="#">Контакты</a>
+			</nav>
+		</div> <!-- /.container -->
+	</section> <!-- /.s-top -->
+
+	<header class="header">
+		<div class="container">
+			<a href="#" class="logo">Пеки и Ешь – всё, что нужно для выпечки</a>
+			<div class="header-contact">
+				<div class="header-contact--item">
+					<h6>Адрес наших магазинов:</h6>
+					<p><i class="i-store"></i>Громовой 6</p>
+				</div> <!-- /.header-contact--item -->
+
+				<div class="header-contact--item">
+					<h6>Часы работы: ежеднавно:</h6>
+					<p><i class="i-clock"></i>10:00-20:00</p>
+				</div> <!-- /.header-contact--item -->
+
+				<div class="header-contact--item">
+					<h6>По любым вопросам звоните: </h6>
+					<p><i class="i-mobile"></i>+7(962) 260 2005</p>
+
+					<div class="callback-wrap" id="callback-id1">
+						<span class="callback-link">Заказать обратный звонок</span>
+						<from class="callback-form">
+							<input type="text" placeholder="Ваше имя">
+							<input type="tel" placeholder="Ваш телефон">
+							<button type="submit" class="btn-user">Отправить</button>
+						</form>
+					</div><!-- /.callback-wrap -->
+				</div> <!-- /.header-contact--item -->
+			</div> <!-- /.header-contact -->
+		</div> <!-- /.container -->
+	</header> <!-- /.header -->
+
+	<section class="s-search">
+		<div class="container">
+			<div class="cat-btn">
+				<div class="sandwich-box" id="sandwich-2">
+					<span class="sandwich-icon">
+						<i class="sandwich-top"></i>
+						<i class="sandwich-center"></i>
+						<i class="sandwich-bottom"></i>
+					</span>
+					Каталог товаров
+				</div>
+			</div> <!-- /.cat-btn -->
+
+			<form class="search">
+				<input type="search" placeholder="Поиск товаров">
+				<hr>
+				<button type="submit"><i class="i-search"></i></button>
+			</form> <!-- /.search -->
+		</div> <!-- /.container -->
+	</section> <!-- /.s-search -->
+
+	<section class="s-header-content">
+		<div class="container">
+			<nav class="cat-nav">
+				<a href="#"><i class="i-harvest"></i>Пищевые ингредиенты</a>
+				<a href="#"><i class="i-candy-cane"></i>Декор</a>
+				<a href="#"><i class="i-chocolate"></i>Шоколад и какао продукты</a>
+				<a href="#"><i class="i-birthday"></i>Мастика и марципан</a>
+				<a href="#"><i class="i-paint-tube"></i>Пищевые красители</a>
+				<a href="#"><i class="i-pastry-bag"></i>Кондитерские мешки</a>
+				<a href="#"><i class="i-gift"></i>Упаковка</a>
+				<a href="#"><i class="i-doughnut"></i>Айсинг,кружево и сахарная глазурь</a>
+				<a href="#"><i class="i-mixer"></i>Оборудование</a>
+				<a href="#"><i class="i-balloons"></i>Все для праздника</a>
+				<a href="#"><i class="i-recipe"></i>Литература</a>
+			</nav>
+
+			<aside>
+				<div class="header-banners">
+					<div class="banner-550x400">
+						<div class="owl-carousel owl-theme owl-banner">
+							<a href="#" class="banner--item">
+								<img src="img/banner-550x400.jpg" alt="banner-550x400">
+								<p class="banner-info">При заказе за каждые 100 руб.<br> Вы получаете 5 баллов. 1 балл = 1 руб.</p>
+							</a> <!-- /.banner--item -->
+							<a href="#" class="banner--item">
+								<img src="img/banner-550x400.jpg" alt="banner-550x400">
+								<p class="banner-info">При заказе за каждые 100 руб.<br> Вы получаете 5 баллов. 1 балл = 1 руб.</p>
+							</a> <!-- /.banner--item -->
+							<a href="#" class="banner--item">
+								<img src="img/banner-550x400.jpg" alt="banner-550x400">
+								<p class="banner-info">При заказе за каждые 100 руб.<br> Вы получаете 5 баллов. 1 балл = 1 руб.</p>
+							</a> <!-- /.banner--item -->
+						</div> <!-- /.owl-carousel -->
+					</div> <!-- /.banner-550x400 -->
+					<div>
+						<a href="#" class="banner--item banner-308x190">
+							<img src="img/banner-308x190--1.jpg" alt="banner-308x190">
+							<p class="banner-info">Новое поступление:<br> Марципановые фигурки из Германии</p>
+						</a>
+						<a href="#" class="banner--item banner-308x190">
+							<img src="img/banner-308x190--2.jpg" alt="banner-308x190">
+							<p class="banner-info">Доставка по Калининграду<br> всего 200руб.</p>
+						</a>
+					</div>
+				</div> <!-- /.header-baners -->
+				<ul class="advantages">
+					<li><i class="i-grocery"></i>Товар напрямую с<br> зарубежных стран</li>
+					<li><i class="i-shield"></i>Гарантия качества.<br> Весь товар сертифицирован</li>
+					<li><i class="i-delivery-man"></i>Быстрая и удобная<br> доставка до двери</li>
+				</ul>
+			</aside>
+		</div> <!-- /.container -->
+	</section> <!-- /.s-header-content -->
+</div> <!-- /.wrapper-header -->
+
+<div class="wrap-product">
+
+	<div class="container">
+
+		<hgroup class="s-title">
+			<h2>Лучшие предложения недели</h2>
+			<div class="s-title--element"></div>
+		</hgroup>
+		<section class="owl-carousel owl-theme owl-product">
+			<div class="product-item hit">
+				<a href="#" class="product-link">
+					<picture><img src="img/product-img--1.jpg" alt="product-img"></picture>
+					<h4>Ячменная мука<br> «С. Пудовъ», 400 гр.</h4>
+					<div class="pricebox">Цена: <strong>56 руб.</strong></div>
+				</a>
+				<div class="product-bar">
+					<a href="#" data-tooltip="Сравнение" data-tooltip-location="top"><i class="i-comparison"></i></a>
+					<a href="#" data-tooltip="Корзина" data-tooltip-location="top"><i class="i-cart"></i></a>
+					<a href="#" data-tooltip="В закладки" data-tooltip-location="top"><i class="i-heart"></i></a>
+				</div>
+			</div> <!-- /.product-item -->
+			<div class="product-item">
+				<a href="#" class="product-link">
+					<picture><img src="img/product-img--2.jpg" alt="product-img"></picture>
+					<h4>Совок для сыпучих<br> продуктов</h4>
+					<div class="pricebox">Цена: <strong>45 руб.</strong></div>
+				</a>
+				<div class="product-bar">
+					<a href="#" data-tooltip="Сравнение" data-tooltip-location="top"><i class="i-comparison"></i></a>
+					<a href="#" data-tooltip="Корзина" data-tooltip-location="top"><i class="i-cart"></i></a>
+					<a href="#" data-tooltip="В закладки" data-tooltip-location="top"><i class="i-heart"></i></a>
+				</div>
+			</div> <!-- /.product-item -->
+			<div class="product-item">
+				<a href="#" class="product-link hit">
+					<picture><img src="img/product-img--3.jpg" alt="product-img"></picture>
+					<h4>Фигурка из марципана<br> "Дед Мороз" 1 шт.</h4>
+					<div class="pricebox">Цена: <strong>195 руб.</strong></div>
+				</a>
+				<div class="product-bar">
+					<a href="#" data-tooltip="Сравнение" data-tooltip-location="top"><i class="i-comparison"></i></a>
+					<a href="#" data-tooltip="Корзина" data-tooltip-location="top"><i class="i-cart"></i></a>
+					<a href="#" data-tooltip="В закладки" data-tooltip-location="top"><i class="i-heart"></i></a>
+				</div>
+			</div> <!-- /.product-item -->
+			<div class="product-item">
+				<a href="#" class="product-link">
+					<picture><img src="img/product-img--4.jpg" alt="product-img"></picture>
+					<h4>Горький шоколад "Нуар Суприм",<br> 100гр, Puratos</h4>
+					<div class="pricebox">Цена: <strong>95 руб.</strong></div>
+				</a>
+				<div class="product-bar">
+					<a href="#" data-tooltip="Сравнение" data-tooltip-location="top"><i class="i-comparison"></i></a>
+					<a href="#" data-tooltip="Корзина" data-tooltip-location="top"><i class="i-cart"></i></a>
+					<a href="#" data-tooltip="В закладки" data-tooltip-location="top"><i class="i-heart"></i></a>
+				</div>
+			</div> <!-- /.product-item -->
+			<div class="product-item">
+				<a href="#" class="product-link">
+					<picture><img src="img/product-img--2.jpg" alt="product-img"></picture>
+					<h4>Совок для сыпучих<br> продуктов</h4>
+					<div class="pricebox">Цена: <strong>45 руб.</strong></div>
+				</a>
+				<div class="product-bar">
+					<a href="#" data-tooltip="Сравнение" data-tooltip-location="top"><i class="i-comparison"></i></a>
+					<a href="#" data-tooltip="Корзина" data-tooltip-location="top"><i class="i-cart"></i></a>
+					<a href="#" data-tooltip="В закладки" data-tooltip-location="top"><i class="i-heart"></i></a>
+				</div>
+			</div> <!-- /.product-item -->
+			<div class="product-item">
+				<a href="#" class="product-link hit">
+					<picture><img src="img/product-img--3.jpg" alt="product-img"></picture>
+					<h4>Фигурка из марципана<br> "Дед Мороз" 1 шт.</h4>
+					<div class="pricebox">Цена: <strong>195 руб.</strong></div>
+				</a>
+				<div class="product-bar">
+					<a href="#" data-tooltip="Сравнение" data-tooltip-location="top"><i class="i-comparison"></i></a>
+					<a href="#" data-tooltip="Корзина" data-tooltip-location="top"><i class="i-cart"></i></a>
+					<a href="#" data-tooltip="В закладки" data-tooltip-location="top"><i class="i-heart"></i></a>
+				</div>
+			</div> <!-- /.product-item -->
+		</section> <!-- /.owl-carousel -->
+
+		<hgroup class="s-title">
+			<h2>Новые поступления</h2>
+			<div class="s-title--element"></div>
+		</hgroup>
+		<section class="owl-carousel owl-theme owl-product">
+			<div class="product-item">
+				<a href="#" class="product-link">
+					<picture><img src="img/product-img--5.jpg" alt="product-img"></picture>
+					<h4>Кокосовая стружка <br>(медиум) 100 гр.</h4>
+					<div class="pricebox">Цена: <strong>56 руб.</strong></div>
+				</a>
+				<div class="product-bar">
+					<a href="#" data-tooltip="Сравнение" data-tooltip-location="top"><i class="i-comparison"></i></a>
+					<a href="#" data-tooltip="Корзина" data-tooltip-location="top"><i class="i-cart"></i></a>
+					<a href="#" data-tooltip="В закладки" data-tooltip-location="top"><i class="i-heart"></i></a>
+				</div>
+			</div> <!-- /.product-item -->
+			<div class="product-item hit">
+				<a href="#" class="product-link">
+					<picture><img src="img/product-img--6.jpg" alt="product-img"></picture>
+					<h4>Мешки кондитерские в рулоне <br>COMFORT CLEAR  59 см.</h4>
+					<div class="pricebox">Цена: <strong>1180 руб.</strong></div>
+				</a>
+				<div class="product-bar">
+					<a href="#" data-tooltip="Сравнение" data-tooltip-location="top"><i class="i-comparison"></i></a>
+					<a href="#" data-tooltip="Корзина" data-tooltip-location="top"><i class="i-cart"></i></a>
+					<a href="#" data-tooltip="В закладки" data-tooltip-location="top"><i class="i-heart"></i></a>
+				</div>
+			</div> <!-- /.product-item -->
+			<div class="product-item">
+				<a href="#" class="product-link">
+					<picture><img src="img/product-img--7.jpg" alt="product-img"></picture>
+					<h4>Смесь для кексов <br>бисквита ванильная</h4>
+					<div class="pricebox">Цена: <strong>80 руб.</strong></div>
+				</a>
+				<div class="product-bar">
+					<a href="#" data-tooltip="Сравнение" data-tooltip-location="top"><i class="i-comparison"></i></a>
+					<a href="#" data-tooltip="Корзина" data-tooltip-location="top"><i class="i-cart"></i></a>
+					<a href="#" data-tooltip="В закладки" data-tooltip-location="top"><i class="i-heart"></i></a>
+				</div>
+			</div> <!-- /.product-item -->
+			<div class="product-item">
+				<a href="#" class="product-link">
+					<picture><img src="img/product-img--8.jpg" alt="product-img"></picture>
+					<h4>Насадка для кондитерского <br>мешка BX0041</h4>
+					<div class="pricebox">Цена: <strong>150 руб.</strong></div>
+				</a>
+				<div class="product-bar">
+					<a href="#" data-tooltip="Сравнение" data-tooltip-location="top"><i class="i-comparison"></i></a>
+					<a href="#" data-tooltip="Корзина" data-tooltip-location="top"><i class="i-cart"></i></a>
+					<a href="#" data-tooltip="В закладки" data-tooltip-location="top"><i class="i-heart"></i></a>
+				</div>
+			</div> <!-- /.product-item -->
+			<div class="product-item hit">
+				<a href="#" class="product-link">
+					<picture><img src="img/product-img--6.jpg" alt="product-img"></picture>
+					<h4>Мешки кондитерские в рулоне <br>COMFORT CLEAR  59 см.</h4>
+					<div class="pricebox">Цена: <strong>1180 руб.</strong></div>
+				</a>
+				<div class="product-bar">
+					<a href="#" data-tooltip="Сравнение" data-tooltip-location="top"><i class="i-comparison"></i></a>
+					<a href="#" data-tooltip="Корзина" data-tooltip-location="top"><i class="i-cart"></i></a>
+					<a href="#" data-tooltip="В закладки" data-tooltip-location="top"><i class="i-heart"></i></a>
+				</div>
+			</div> <!-- /.product-item -->
+			<div class="product-item">
+				<a href="#" class="product-link">
+					<picture><img src="img/product-img--7.jpg" alt="product-img"></picture>
+					<h4>Смесь для кексов <br>бисквита ванильная</h4>
+					<div class="pricebox">Цена: <strong>80 руб.</strong></div>
+				</a>
+				<div class="product-bar">
+					<a href="#" data-tooltip="Сравнение" data-tooltip-location="top"><i class="i-comparison"></i></a>
+					<a href="#" data-tooltip="Корзина" data-tooltip-location="top"><i class="i-cart"></i></a>
+					<a href="#" data-tooltip="В закладки" data-tooltip-location="top"><i class="i-heart"></i></a>
+				</div>
+			</div> <!-- /.product-item -->
+		</section> <!-- /.owl-carousel -->
+
+	</div> <!-- /.container -->
+	
+</div> <!-- /.wrap-product -->
+
+<section class="publication">
+	<div class="container">
+		<h2>Рецепты от “Пеки и Ешь”</h2>
+		<div class="publication-container">
+			<a href="#" class="publication-item">
+				<i class="i-logo"></i>
+				<h3>Апельсиновый чизкейк с брауни</h3>
+				<p>
+					Одно из классических и беспроигрышных<br>
+					сочетаний — апельсин и шоколад — я дополнила в этом чизкейке ароматным розмарином, который придаёт приятную пикантную нотку и отлично гармонирует <br>
+					с остальными ингредиентами.
+				</p>
+				<p>
+					Чизкейк получается очень нежным за<br> 
+					счёт наличия рикотты, а плотная,<br>
+					насыщенно-шоколадная основа-брауни,<br>
+					которая не является классическим<br>
+					элементом чизкейков, делает его более<br>
+					праздничным, не совсем повседневным<br>
+					лакомством. 
+				</p>
+			</a> <!-- /.publication-item -->
+
+			<a href="#" class="publication-item">
+				<i class="i-logo"></i>
+				<h3>Желатиновые шарики для украшения капкейков</h3>
+				<p>
+					Когда мы готовим что-либо на праздник, мы<br>
+					осознаём, что блюда должны быть не только<br>
+					очень вкусными, но и красивыми. Особенно<br>
+					если дело касается пирожных, кексов и<br>
+					тортов. Но привычные украшения<br>
+					сладостей уже слегка надоели, да и гостей<br>
+					ими не удивишь.
+				</p>
+				<p>
+					Пришло время использовать новые методы!<br>
+					Мы нашли для вас очень необычный способ<br>
+					создания съедобного декора для кексов и<br>
+					тортиков, результат которого удивит вас и<br>
+					ваших гостей. Итак, будем учиться делать<br>
+					желатиновые прозрачные шарики.
+				</p>
+			</a> <!-- /.publication-item -->
+
+			<a href="#" class="publication-item">
+				<i class="i-logo"></i>
+				<h3>Торт "Павлова" с маскарпоне</h3>
+				<p>
+					Знаменитый торт Павлова это особый вид<br>
+					безе, хрустящий снаружи и мягкий внутри.<br>
+					Торт часто наполняют взбитыми сливками и<br>
+					свежайшими фруктами или ягодами. 
+				</p>
+				<p>
+					Однако существуют вариации этого знаменитого десерта, и я позволю себе представить вам сегодня мою 
+				</p>
+				<p>
+					Не секрет, что этот торт был назван в честь<br>
+					легендарной балерины, королевы<br>
+					сцены — Анны Павловой, он такой же легкий,<br>
+					такой же нежный как сама Павлова .
+				</p>
+			</a> <!-- /.publication-item -->
+		</div> <!-- /.publication-container -->
+
+		<footer>
+			<a href="#">Все публикации...</a>
+		</footer>
+	</div> <!-- /.container -->
+</section> <!-- /.publication -->
+
+<section class="our-advantages">
+	<div class="container">
+		<hgroup class="s-title">
+			<h2>Наши преимущества</h2>
+			<div class="s-title--element"></div>
+		</hgroup>
+		<div class="row">
+			<div class="col">
+				<i class="i-medal"></i>
+				<h3>Высокое качество</h3>
+				<p>
+					Сотрудничество с ведущими<br>
+					поставщиками. Качества про дукции позволяют обеспечи вать высокий уровень<br>
+					продукции нашего интернет<br>
+					магазина. Мы гарантируем<br>
+					высокое качество товаров и<br>
+					безупречный сервис.
+				</p>
+			</div> <!-- /.col -->
+			<div class="col">
+				<i class="i-grocery"></i>
+				<h3>Широкий ассортимент</h3>
+				<p>
+					На полках нашего интернет<br>
+					магазина представлен широкий<br>
+					ассортимент продукции от<br>
+					надежных поставщиков Европы.<br>
+					Мы постарались собрать для Вас<br>
+					самые лучшие кондитерские<br>
+					принаджежности для вашей кухни.
+				</p>
+			</div> <!-- /.col -->
+			<div class="col">
+				<i class="i-delivery-man"></i>
+				<h3>Удобная доставка</h3>
+				<p>
+					Клиент интернет магазина<br>
+					самостоятельно выбирает<br>
+					оптимальный способ доставки.<br>
+					Возможна доставка курьерской<br>
+					службой СДЭК до двери или<br>
+					пункта выдачи заказов в более<br>
+					80 городах России. 
+				</p>
+			</div> <!-- /.col -->
+			<div class="col">
+				<i class="i-support"></i>
+				<h3>Всегда на связи</h3>
+				<p>
+					Мы всегда на связи! Наши<br>
+					консультанты всегда рады<br>
+					ответить на все ваши вопросы<br>
+					по телефону, СМС, WhatsApp,<br>
+					Telegram и он-лайн чату.
+				</p>
+			</div> <!-- /.col -->
+		</div> <!-- /.row -->
+	</div> <!-- /.container -->
+</section> <!-- /.advantages -->
+
+
+<section class="working">
+	<hgroup class="s-title two">
+		<h2>Как мы работаем</h2>
+	</hgroup>
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<h3><span class="i-basket-circle"><i class="i-basket"></i></span> Заказ</h3>
+				<p>
+					Сделайте заказ прямо на сайте, либо<br>
+					по телефону, звонки принимаются<br>
+					круглосуточно!
+				</p>
+			</div> <!-- /.col -->
+			<div class="col">
+				<h3><span class="i-wallet-circle"><i class="i-wallet"></i></span> Оплата</h3>
+				<p>
+					Оплатить Ваш заказ можно  либо<br>
+					на сайте, чрез online оплату, либо<br>
+					наличными курьеру.
+				</p>
+			</div> <!-- /.col -->
+			<div class="col">
+				<h3><span class="i-shipped-circle"><i class="i-shipped"></i></span> Доставка</h3>
+				<p>
+					Мы доставляем товары  по всей стране!<br>
+					Вы можете получить посылку с курьером,<br>
+					либо в пунктах самовывоза.
+				</p>
+			</div> <!-- /.col -->
+		</div> <!-- /.row -->
+	</div> <!-- /.container -->
+</section> <!-- /.working -->
+
+<section class="review">
+	<hgroup class="s-title">
+		<h2>А вот как отзываются о нас покупатели:</h2>
+		<div class="s-title--element"></div>
+	</hgroup>
+	<div class="owl-carousel owl-theme owl-review">
+		<div class="review-item">
+			<picture class="review-photo"><img src="img/photo-1.jpg" alt="photo"></picture>
+			<aside class="review-info">
+				<strong>Анастасия Юрьевна</strong>
+				<span>Калининград</span>
+				<p>
+					"Очень хороший магазин!<br>
+					Просто отличный!<br>
+					Ассортимент всегда хороший!"
+				</p>
+			</aside>
+			<i class="i-chat"></i>
+		</div> <!-- /.review-item -->
+		
+		<div class="review-item">
+			<picture class="review-photo"><img src="img/photo-2.jpg" alt="photo"></picture>
+			<aside class="review-info">
+				<strong>Екатерина Андреевна</strong>
+				<span>Калининград</span>
+				<p>
+					"Очень вежливый персонал: помогут,<br>
+					расскажут и всегда с улыбкой! Буду<br>
+					рекоменжовать Вас всем своим родным и<br>
+					близким. " 
+				</p>
+			</aside>
+			<i class="i-chat"></i>
+		</div> <!-- /.review-item -->
+
+		<div class="review-item">
+			<picture class="review-photo"><img src="img/photo-3.jpg" alt="photo"></picture>
+			<aside class="review-info">
+				<strong>Алена</strong>
+				<span>Калининград</span>
+				<p>
+					"Очень крутая сеть, все отлично, по доступным<br>
+					ценам, ассортимент большой и расположение<br>
+					отличное"
+				</p>
+			</aside>
+			<i class="i-chat"></i>
+		</div> <!-- /.review-item -->
+
+		<div class="review-item">
+			<picture class="review-photo"><img src="img/photo-2.jpg" alt="photo"></picture>
+			<aside class="review-info">
+				<strong>Екатерина Андреевна</strong>
+				<span>Калининград</span>
+				<p>
+					"Очень вежливый персонал: помогут,<br>
+					расскажут и всегда с улыбкой! Буду<br>
+					рекоменжовать Вас всем своим родным и<br>
+					близким. " 
+				</p>
+			</aside>
+			<i class="i-chat"></i>
+		</div> <!-- /.review-item -->
+	</div> <!-- /.owl-carousel -->
+
+	<footer>
+		<a href="#">Читать еще отзывы...</a>
+	</footer>
+</section> <!-- /.review -->
+
+
+<section class="subscribe">
+	<div class="container">
+		<h3>Учим готовить изысканно и полезно с пряностями <br>Подпишитесь на нашу рассылку с рецептами!</h3>
+		<form>
+			<div>
+				<span class="m-code-checkbox">
+					<input id="checkbox-1" type="checkbox">
+					<label for="checkbox-1">Новости и акции</label>
+				</span>
+				<span class="m-code-checkbox">
+					<input id="checkbox-2" type="checkbox" checked>
+					<label for="checkbox-2">Рецепты и обзоры</label>
+				</span>
+			</div>
+			<input type="email" placeholder="укажите свой e-mail">
+			<button type="submit" class="btn-user">Хочу научиться</button>
+		</form>
+	</div> <!-- /.container -->
+</section> <!-- /.subscribe -->
+
+
+<article class="s-info">
+	<div class="container">
+		<h2>Все для кондитеров “Пеки и Ешь”</h2>
+		<p>
+			Вкусное, оригинальное и эффектно оформленное кондитерское изделие — непременный атрибут праздничного стола. 
+			Маститые профессионалы и кондитеры-любители с удовольствием создают невероятной красоты кулинарные шедевры, 
+			используя в своей работе инструменты и продукты, приобретенные в интернет-магазине «Пеки и Ешь».<br> 
+			Мы предлагаем широкий ассортимент качественных товаров для кондитеров, от ванилина до декоративных 
+			формочек и кандурина.
+		</p>
+		<p>
+			Любой кондитер может создать настоящий шедевр кондитерского искусства, используя в своей работе минимальный 
+			набор подручных средств. Но, согласитесь, намного приятней и интересней выполнять сложные узоры и фигуры, если 
+			под рукой имеются надежные кондитерские принадлежности, с помощью которых так легко и просто соорудить 
+			изумительный трехэтажный торт, украшенный фантастическими букетами или оформленный миниатюрными сказочными 
+			героями. 
+		</p>
+		<p>
+			Качественный кухонный инвентарь пригодится не только опытному мастеру, за плечами которого уже сотни и тысячи 
+			удивительных тортов, кексов, пряников и пирогов. Начинающие кондитеры и любители домашней выпечки с интересом 
+			изучают товары, представленные в нашем каталоге, выбирая инвентарь, необходимый для первых шагов в кулинарном деле. 
+			Кроме того, специально для новичков у нас есть литература о кондитерском мастерстве — в учебных пособиях подробно и 
+			внятно рассказывается о том, как делать цветы и фигурки из сахарной мастики, как рисовать геометрические и цветочные 
+			узоры масляным кремом и как правильно работать с мастикой и шоколадом.
+		</p>
+	</div> <!-- /.container -->
+</article> <!-- /.s-info -->
+
+
+<footer class="footer">
+	<div class="container">
+		<div class="footer-top">
+			<a href="#" class="logo-white">Пеки и Ешь – всё, что нужно для выпечки</a>
+			<nav class="footer-nav">
+				<a href="#">О магазине</a>
+				<a href="#">Акции</a>
+				<a href="#">Статьи</a>
+				<a href="#">Оплата и Доставка</a>
+				<a href="#">Отзывы</a>
+				<a href="#">Контакты</a>
+			</nav>
+			<div class="footer-phone">
+				<strong><i class="i-phone"></i>+7(962) 260 2005</strong>
+
+				<div class="callback-wrap" id="callback-id2">
+					<span class="callback-link">заказать звонок</span>
+					<from class="callback-form">
+						<input type="text" placeholder="Ваше имя">
+						<input type="tel" placeholder="Ваш телефон">
+						<button type="submit" class="btn-user">Отправить</button>
+					</form>
+				</div><!-- /.callback-wrap -->
+			</div>
+		</div> <!-- /.footer-top -->
+		<div class="footer-bottom">
+			<p class="footer-copyright">
+				© 2018 - 2019 ООО  “Пеки и ешь” <br>
+				Все права защищены
+			</p>
+			<div class="footer-social">
+				<a href="#"><i class="i-vk"></i></a>
+				<a href="#"><i class="i-fb"></i></a>
+				<a href="#"><i class="i-od"></i></a>
+				<a href="#"><i class="i-twitter"></i></a>
+			</div>
+			<div class="footer-links">
+				<a href="#">Политика конфедииальности</a><br>
+				<a href="#">Карта сайта</a>
+			</div>
+		</div> <!-- /.footer-top -->
+	</div> <!-- /.container -->
+</footer> <!-- /.footer -->
+
+<nav class="fullscreen-menu">
+	<div class="cat-nav--modal">
+		<ul>
+			<li><a href="#"><i class="i-harvest"></i>Пищевые ингредиенты</a></li>
+			<li><a href="#"><i class="i-candy-cane"></i>Декор</a></li>
+			<li><a href="#"><i class="i-chocolate"></i>Шоколад и какао продукты</a></li>
+			<li><a href="#"><i class="i-birthday"></i>Мастика и марципан</a></li>
+			<li><a href="#"><i class="i-paint-tube"></i>Пищевые красители</a></li>
+			<li><a href="#"><i class="i-pastry-bag"></i>Кондитерские мешки</a></li>
+			<li><a href="#"><i class="i-gift"></i>Упаковка</a></li>
+			<li><a href="#"><i class="i-doughnut"></i>Айсинг,кружево и сахарная глазурь</a></li>
+			<li><a href="#"><i class="i-mixer"></i>Оборудование</a></li>
+			<li><a href="#"><i class="i-balloons"></i>Все для праздника</a></li>
+			<li><a href="#"><i class="i-recipe"></i>Литература</a></li>
+			<i class="close-icon"></i>
+		</ul>
+	</div>
+</nav>
+
+<div class="fullscreen-nav">
+	<nav>
+		<a href="#">О магазине</a>
+		<a href="#">Акции</a>
+		<a href="#">Статьи</a>
+		<a href="#">Оплата и Доставка</a>
+		<a href="#">Отзывы</a>
+		<a href="#">Контакты</a>
+	</nav>
+</div>
+
+<!--[if lt IE 9]>
+	<script src="js/libs/html5shiv/es5-shim.min.js"></script>
+	<script src="js/libs/html5shiv/html5shiv.min.js"></script>
+	<script src="js/libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="js/libs/respond/respond.min.js"></script>
+<![endif]-->
+
+<script src="js/libs/jquery/jquery.3.3.1.min.js"></script>
+
+<script src="libs/bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+
+<script src="js/libs/plugins-scroll/plugins-scroll.js"></script>
+
+<script src="js/libs/owl.carousel/owl.carousel.min.js"></script>
+
+<script src="js/jquery.maskedinput.js"></script>
+
+<script src="js/common.js"></script>
+	
+</body>
+</html>
