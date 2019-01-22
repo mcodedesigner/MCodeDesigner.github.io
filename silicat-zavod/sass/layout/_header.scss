@@ -1,0 +1,363 @@
+.section-one {
+	position: relative;
+
+	& .header {
+		width: 100%;
+		position: absolute;
+		left: 0;
+		top: 0;
+		z-index: 2;
+	}
+}
+
+.section-header {
+	min-height: 600px;
+	height: 100%;
+	position: relative;
+}
+
+.header {
+
+	&-top {
+		background: #fff;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 4px 15px 6px;
+	}
+	&-timework {
+		font-size: 18px;
+	    position: relative;
+        padding-left: 46px;
+	    margin-right: 83px;
+
+		& span {
+			display: block;
+		    font-size: 14px;
+		    text-align: right;
+		    letter-spacing: .03em;
+		    padding-top: 7px;
+		}
+
+		& .icon-time-left {
+			position: absolute;
+		    left: 0;
+		    top: 13px;
+		    font-size: 25px;
+		}
+	}
+	&-phone {
+		font-size: 18px;
+	    position: relative;
+	    padding-left: 35px;
+	    letter-spacing: .02em;
+	    padding-top: 3px;
+
+		& span {
+			display: block;
+		    font-size: 14px;
+		    text-align: right;
+		    letter-spacing: -.01em;
+		}
+
+		& .icon-phone-call {
+			position: absolute;
+			left: 0;
+			top: 10px;
+			font-size: 24px;
+		}
+	}
+}
+
+.logo {
+	display: inline-block;
+	width: 146px;
+	height: 59px;
+	background: url(../img/logo.png);
+	margin-right: 34px;
+
+	&-white {
+		background: none;
+		text-align: center;
+		text-transform: uppercase;
+		color: #fff;
+		text-decoration: none;
+		position: relative;
+		margin-bottom: 12px;
+		height: auto;
+		width: auto;
+
+		&::before {
+			content: '';
+			display: block;
+			min-width: 117px;
+			padding-top: 49px;
+			background: url(../img/logo-white.png) no-repeat center top;
+		}
+	}
+}
+.logo-title {
+	margin: 0 auto 0 0;
+	font: 18px 'PantonRegular';
+
+	& span {
+		display: block;
+		font-size: 14px;
+		position: relative;
+	    top: -2px;
+	}
+}
+
+
+.nav {
+	background: $color-blue;
+	display: flex;
+	justify-content: center;
+
+	& a {
+		color: #fff;
+	    padding: 0 19px;
+	    height: 42px;
+	    line-height: 42px;
+	    text-decoration: none;
+
+	    &:hover {
+	    	background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.25) 100%);
+	    	background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.25) 100%);
+	    	background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.25) 100%);
+	    	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#40000000',GradientType=0 );
+	    }
+	    &:active {
+	    	line-height: 44px;
+	    	box-shadow: inset 0 2px 3px rgba(0,0,0,.5);
+	    }
+
+	    &.active {
+	    	background: $color-orange;
+	    	color: $color-dark;
+	    	text-transform: uppercase;
+	    	cursor: default;
+	    }
+	}
+}
+
+#banner-menu {
+	position: absolute;
+	z-index: 3;
+	left: 0;
+	top: 50%;
+}
+
+
+#home-slider {
+	width: 100%;
+	height: calc(100% - 271px);
+	position: absolute;
+	top: 111px;
+
+	& .owl-stage-outer,
+	& .owl-stage,
+	& .owl-item {
+		height: 100%;
+	}
+
+	& .owl-dots {
+		width: 1170px;
+	    position: absolute;
+	    left: 50%;
+	    bottom: 10%;
+	    transform: translateX(-50%);
+	}
+
+	& button.owl-dot {
+		display: inline-block;
+	}
+}
+.home-slider--item {
+	height: 100%;
+	position: relative;
+
+	& .container {
+		padding-left: 0;
+		padding-right: 0;
+		height: 100%;
+		position: relative;
+	}
+}
+.home-slider--bg1 {
+	width: 100%;
+	height: 100%;
+	background: url(../img/slide-1.jpg) no-repeat center;
+	background-size: cover;
+	position: absolute;
+}
+.home-slider--bg2 {
+	width: 100%;
+	height: 100%;
+	background: url(../img/slide-2.jpg) no-repeat center;
+	background-size: cover;
+	position: absolute;
+}
+.home-slider--bg3 {
+	width: 100%;
+	height: 100%;
+	background: url(../img/slide-3.jpg) no-repeat center;
+	background-size: cover;
+	position: absolute;
+}
+
+
+.product-action {
+	width: 570px;
+	background-color: #ece6de;
+	color: #000;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+
+	& > div {
+		position: relative;
+		padding-bottom: 40px;
+
+		&::after {
+			content: ''; 
+		    position: absolute;
+		    right: 0;
+		    bottom: 0;
+		    border: 5px solid transparent;
+		    border-right: 5px solid $color-blue;
+		    border-bottom: 5px solid $color-blue;
+		}
+	}
+	& p {
+		line-height: 1.19;
+	    margin: 0 18px 11px;
+	    letter-spacing: .026em;
+
+	    & strong {
+	    	font-size: 18px;
+	    	display: inline-block;
+	    	padding-top: 3px;
+	    }
+	}
+
+	&--title {
+		position: relative;
+		background-color: #fbb32c;
+		margin: 0 0 16px;
+		padding: 5px 18px;
+		text-transform: uppercase;
+		font: 24px/1.1 'PantonBold';
+		letter-spacing: .03em;
+
+		&::after {
+			content: '';
+			width: 194px;
+			height: 30px;
+			background: url(../img/sprite.png) 0 -128px;
+			position: absolute;
+			left: 0;
+			top: 100%;
+		}
+	}
+	&--info {
+		position: absolute;
+	    right: 13px;
+	    bottom: 4px;
+	    font-size: 14px;
+	    color: $color-dark;
+	}
+	&--btn {
+		position: absolute;
+		left: 0;
+		bottom: -25px;
+		height: 50px;
+		padding: 0 35px;
+		font: 18px/50px 'PantonBold';
+		text-transform: uppercase;
+		text-decoration: none;
+		color: $color-dark;
+		background-color: $color-orangelight;
+		border-radius: 10px;
+		border-top-left-radius: 0;
+		z-index: 1;
+
+		&:active {
+			line-height: 54px;
+		}
+
+		&::after {
+			content: '';
+			position: absolute;
+			right: -15px;
+			top: 25px;
+			border: 7.5px solid transparent;
+			border-left: 7.5px solid $color-orangelight;
+			border-top: 7.5px solid $color-orangelight;
+			transition: .3s;
+		}
+
+		&:hover::after {
+			border-left-color: $color-greenlight;
+			border-top-color: $color-greenlight;
+		}
+
+		&:active::after {
+			transition: 0s;
+			border-left-color: $color-green;
+			border-top-color: $color-green;
+		}
+	}
+}
+
+#fullpage {
+	& .fp-controlArrow.fp-prev,
+	& .fp-controlArrow.fp-next {
+		display: none;
+	}
+}
+
+.client-bar {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	position: absolute;
+	right: 1px;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: 2;
+	overflow: hidden;
+	padding-left: 5px;
+	text-align: center;
+	font-size: 14px;
+
+	&--btn {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		height: 64px;
+		width: 71px;
+		background-color: #efefef;
+		position: relative;
+		right: -5px;
+		margin-bottom: 3px;
+		color: $color-dark;
+		text-decoration: none;
+		transition: .5s;
+		border-radius: 5px 0 0 5px;
+
+		&:hover {
+			right: 0;
+			background-color: #fff;
+		}
+
+		& .icon-basket,
+		& .icon-calculator {
+			font-size: 25px;
+		}
+	}
+
+	& .btn {
+		border-radius: 4px 0 0 4px;
+	}
+}
