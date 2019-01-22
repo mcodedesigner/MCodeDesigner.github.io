@@ -3991,9 +3991,9 @@ html.fp-enabled,
     .contact-info--item {
       padding-left: 40px; }
   .contact-wrap {
-    height: calc(100% - 200px); }
+    height: calc(100% - 260px); }
   .footer {
-    height: 200px;
+    height: 260px;
     border-bottom-width: 3px; }
     .footer .footer-copyright {
       margin: 0;
