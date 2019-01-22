@@ -3669,7 +3669,7 @@ html.fp-enabled,
   min-height: 600px;
   height: 100%; }
   .contact-wrap {
-    height: calc(100% - 222px);
+    height: calc(100% - 260px);
     position: relative;
     overflow: hidden;
     max-width: 1170px;
@@ -3756,7 +3756,7 @@ html.fp-enabled,
   font-size: 12px;
   position: relative;
   padding: 10px 0;
-  height: 222px;
+  height: 260px;
   overflow: hidden;
   border-bottom: 6px solid #fbb32c; }
   .footer-bg--left, .footer-bg--right {
@@ -4114,9 +4114,9 @@ html.fp-enabled,
     .contact-info--item {
       padding-left: 40px; }
   .contact-wrap {
-    height: calc(100% - 200px); }
+    height: calc(100% - 260px); }
   .footer {
-    height: 200px;
+    height: 260px;
     border-bottom-width: 3px; }
     .footer .footer-copyright {
       margin: 0;
