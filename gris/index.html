@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+	<!-- <base href="/"> -->
+
+	<title>BARCELONA’S FIRST SPECIALITY DUCK RESTAURANT</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<!-- Template Basic Images Start -->
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="icon" href="img/favicon/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+	<!-- Template Basic Images End -->
+	
+	<!-- Custom Browsers Color Start -->
+	<meta name="theme-color" content="#000">
+	<!-- Custom Browsers Color End -->
+	
+	<link rel="stylesheet" href="css/owl-carousel/owl.carousel.css">
+
+	<link rel="stylesheet" href="css/main.min.css">
+
+
+</head>
+
+<body>
+
+	<div class="wrap-1450">
+		<div class="main-slider">
+			<div class="owl-carousel owl-theme product-slider">
+			  <picture class="product-img">
+			  	<img src="img/slider/1.jpg" alt="1">
+			  </picture>
+			  <picture class="product-img">
+			  	<img src="img/slider/2.jpg" alt="2">
+			  </picture>
+			  <picture class="product-img">
+			  	<img src="img/slider/3.jpg" alt="3">
+			  </picture>
+			  <picture class="product-img">
+			  	<img src="img/slider/4.jpg" alt="4">
+			  </picture>
+			  <picture class="product-img">
+			  	<img src="img/slider/5.jpg" alt="5">
+			  </picture>
+			  <picture class="product-img">
+			  	<img src="img/slider/6.jpg" alt="6">
+			  </picture>
+			  <picture class="product-img">
+			  	<img src="img/slider/7.jpg" alt="7">
+			  </picture>
+			  <picture class="product-img">
+			  	<img src="img/slider/8.jpg" alt="8">
+			  </picture>
+			</div>
+		</div> <!-- /.main-slider -->
+
+		<div class="content">
+			<div class="brand-box">
+				<a href="#" class="logo"></a>
+				<div class="brand-element"></div>
+				<a href="#" class="i-map"></a>
+			</div> <!-- /.brand-box -->
+
+			<div class="content-text">
+				<p>
+					BARCELONA’S FIRST SPECIALITY DUCK RESTAURANT: <br>
+					peking duck and fusion asian-mediterranean food in the city center (Gothic) <br>
+					WALK INS ONLY
+				</p>
+			</div>
+
+			<div class="i-bar">
+				<a href="#" class="menu-link">menu</a>
+				<div class="social">
+					<a href="#"><i class="icon-i-instagram"></i></a>
+					<a href="#"><i class="icon-i-facebook"></i></a>
+				</div>
+			</div>
+
+			<div class="bottom-line"></div>
+		</div> <!-- /.content -->
+
+		<div class="phone-bar">
+			<div class="social">
+				<a href="#"><i class="icon-i-instagram"></i></a>
+				<a href="#"><i class="icon-i-facebook"></i></a>
+			</div>
+			<a href="#" class="menu-link">menu</a>
+			<a href="#" class="phone-call"><i class="i-call"></i></a>
+		</div> <!-- /.phone-bar -->
+	</div> <!-- /.wrap-1450 -->
+
+	<div class="aside-menu">
+		<span class="nav__toggle"></span>
+
+		<h3>THE DUCK</h3>
+		<p class="price-item">
+			<span>DUCK HAMBURGER</span>
+			<span>
+				8.70€<br>
+				5.30€
+			</span>
+		</p>
+		<p class="price-item">
+			<span>DUCK IN LETTUCE LEAVES</span>
+			<span>7.70€</span>
+		</p>
+		<p class="price-item">
+			<span>DUCK IN BOUILLON WITH</span>
+			<span>9.50€</span>
+		</p>
+		<p>NOODLES</p>
+		<p>DUCK IN PEKING PANECAKES</p>
+		<p class="price-item">
+			<span>WITH VEGETABLES</span>
+			<span>8.70€</span>
+		</p>
+		<p class="margin-bottom">
+			Have your duck as burger, confit, peking or magret into any of the listed options and chose one of our 4 sauces
+		</p>
+
+		<h3>MORE OF THE DUCK</h3>
+		<p class="price-item">
+			<span>DUCK BORSH</span>
+			<span>5.50€</span>
+		</p>
+		<p class="price-item">
+			<span>TRINCH DUCK</span>
+			<span>8.50€</span>
+		</p>
+		<p class="price-item">
+			<span>DUCK STEAMED DUMPLINGS</span>
+			<span>8.50€</span>
+		</p>
+		<p class="price-item margin-bottom">
+			<span>DUCK OF THE DAY</span>
+			<span>7.50€</span>
+		</p>
+
+		<h3>AFTER THE DUCK</h3>
+		<p>TSTRAWBERRY FLAMBÉ</p>
+		<p class="price-item">
+			<span>with basil and vanilla ice cream</span>
+			<span>5.50€</span>
+		</p>
+		<p class="price-item">
+			<span>APPLE CHARLOTTE</span>
+			<span>4.50€</span>
+		</p>
+		<p class="price-item margin-bottom">
+			<span>CATALAN CREAM</span>
+			<span>4.50€</span>
+		</p>
+
+		<h3>MATCH WITH THE DUCK</h3>
+		<p>WE OFFER A GREAT SELECTION OF TEA, ALCOHOLIC AND SOFT DRINKS</p>
+	</div>
+
+	<script src="js/scripts.min.js"></script>
+
+	<script src="libs/owl.carousel/owl.carousel.min.js"></script>
+
+	<script>
+		$(".product-slider").owlCarousel({
+			items: 1,
+			nav: true,
+			dots: true
+		});
+
+		$('.menu-link').on('click', function(event){
+			event.preventDefault();
+			$('.aside-menu').addClass('active');
+		});
+		$('.nav__toggle').on('click', function(event){
+			event.preventDefault();
+			$('.aside-menu').removeClass('active');
+		});
+	</script>
+
+</html>
