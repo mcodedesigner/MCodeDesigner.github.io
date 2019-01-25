@@ -3144,7 +3144,7 @@ b,strong
 }
 .content-text
 {
-	font-size: 30px;
+	font-size: 20px;
 	line-height: 1.3;
 	padding: 50px 130px 80px 174px;
 }
@@ -3239,7 +3239,8 @@ b,strong
 	webkit-box-orient: vertical;
 	webkit-flex-direction: column;
 }
-.i-instagram
+
+.i-facebook
 {
 	background: url(../img/i-social.png) no-repeat 0 0;
 	background-size: 110px;
@@ -3249,7 +3250,7 @@ b,strong
 	webkit-background-size: 110px 110px;
 	width: 55px;
 }
-.i-facebook
+.i-instagram
 {
 	background: url(../img/i-social.png) no-repeat 0 -55px;
 	background-size: 110px;
@@ -3281,7 +3282,7 @@ b,strong
 }
 .aside-menu h3
 {
-	font-size: 24px;
+	font-size: 20px;
 	position: relative;
 	z-index: 5;
 	margin-bottom: 0;
@@ -3291,6 +3292,7 @@ b,strong
 	margin: 0;
 	position: relative;
 	z-index: 5;
+	font-size: ;
 }
 .aside-menu .i-map
 {
@@ -3367,7 +3369,7 @@ b,strong
 	.content-text
 	{
 		padding-left: 175px;
-		font-size: 23px;
+		font-size: 20px;
 	}
 	.i-bar
 	{
@@ -3384,7 +3386,7 @@ b,strong
 		padding-top: 15px;
 	}
 
-	.i-facebook {
+	.i-instagram {
 	    background: url(../img/i-social.png) no-repeat 0 -25px;
 	    background-size: 50px;
 	    display: block;
@@ -3393,7 +3395,7 @@ b,strong
 	    webkit-background-size: 50px 50px;
 	    width: 25px;
 	}
-	.i-instagram {
+	.i-facebook {
 	    background: url(../img/i-social.png) no-repeat 0 0;
 	    background-size: 50px;
 	    display: block;
@@ -3423,7 +3425,7 @@ b,strong
 	}
 	.content-text
 	{
-		font-size: 23px;
+		font-size: 20px;
 		padding-top: 40px;
 	}
 }
@@ -3545,8 +3547,8 @@ b,strong
 		webkit-flex-direction: row;
 		webkit-justify-content: center;
 	}
-	.phone-bar .i-instagram
-	{
+	
+	.phone-bar .i-facebook {
 		background: url(../img/i-social-phone.png);
 		background-size: 40px;
 		height: 20px;
@@ -3555,7 +3557,7 @@ b,strong
 		webkit-background-size: 40px 40px;
 		width: 20px;
 	}
-	.phone-bar .i-facebook
+	.phone-bar .i-instagram
 	{
 		background: url(../img/i-social-phone.png) 0 -20px;
 		background-size: 40px;
@@ -3577,10 +3579,6 @@ b,strong
 		height: 20px;
 		margin-right: 15px;
 		width: 50px;
-	}
-	.phone-call:active,.phone-call:hover
-	{
-		background-position: 0 bottom;
 	}
 	.main-slider
 	{
@@ -3761,7 +3759,7 @@ b,strong
 		display: block;
 		height: 123px;
 		left: 50px;
-		opacity: .3;
+		opacity: .5;
 		position: fixed;
 		top: 148px;
 		webkit-background-size: cover;
@@ -3833,8 +3831,8 @@ b,strong
 		top: 284px;
 		width: 124px;
 	}
-	.phone-bar .i-instagram
-	{
+	
+	.phone-bar .i-facebook {
 		background: url(../img/i-social-phone.png);
 		background-size: 40px;
 		height: 20px;
@@ -3843,7 +3841,7 @@ b,strong
 		webkit-background-size: 40px 40px;
 		width: 20px;
 	}
-	.phone-bar .i-facebook
+	.phone-bar .i-instagram
 	{
 		background: url(../img/i-social-phone.png) 0 -20px;
 		background-size: 40px;
