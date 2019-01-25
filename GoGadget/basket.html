@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>Моя корзина</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link href="css/style.css" rel="stylesheet">
+	<!--[if lt IE 9]>
+		<script src="js/html5.min.js"></script>
+		<script src="js/response.min.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+
+	<div id="shadow"></div>
+	<div id="wrapper">
+		<div id="container">
+
+			<!-- HEADER -->
+			<header id="header">
+				<div class="top container clearfix">
+					<section>`
+						<a href="#" class="icon-logo main"></a>
+						<h4 class="tagline">Ремонт ноутбуков,<br>телефонов, планшетов</h4>
+					</section>
+
+					<section>
+						<address>Новосибирск, Романова, 28, оф. 413 <br> Будни: 10<sup>00</sup> - 20<sup>00</sup></address>
+						<div class="fr">
+							<a href="#" class="icon-count"></a>
+							<p class="contact_mobile">Перезвонить вам? <span>381-72-66</span></p>
+							<span class="icon-menu"></span>
+						</div>
+					</section>
+
+					<nav id="drop_menu">
+						<div>
+							<ul>
+								<li><a href="#">Личный кабинет</a></li>
+								<li><a href="#">Наборы для саморемонта</a></li>
+								<li><a href="#">Прайсы</a></li>
+								<li><a href="#">Для оптовиков</a></li>
+								<li><a href="#">Разместить заказ</a></li>
+								<li><a href="#">Отзыв</a></li>
+								<li><a href="#">Контакты</a></li>
+							</ul>
+							<i class="icon-close"></i>
+							<div class="icon-logo"></div>
+						</div>
+					</nav>
+				</div><!-- top -->
+			</header>
+
+			<div class="container basket">
+				<h2>Моя корзина</h2>
+				<nav class="nav_crumb">
+					<ul>
+						<li><a href="#">Главная</a></li>
+						<li class="active"><a href="#">Корзина</a></li>
+					</ul>
+				</nav>
+
+				<div class="overflow">
+					<table>
+						<thead>
+							<tr>
+								<th colspan="2"><h4>Наименование</h4></th>
+								<th><h4 class="center">Количество</h4></th>
+								<th><h4 class="center">Цена</h4></th>
+								<th></th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>
+									<div class="photo"><img src="img/basket_photo.jpg" alt=""></div>
+								</td>
+								<td>
+									<h3><a href="#">АКБ HTC B0P6B100 ( One M8/One Dual M8/One Dual E8 ) Оригинал 100%</a></h3>
+								</td>
+								<td>
+									<div class="spinner">
+										<a href="javascript:;" data-spin="down"><i class="icon-prev"></i></a>
+										<input type="text" value="1" data-rule="quantity">
+										<a href="javascript:;" data-spin="up"><i class="icon-next"></i></a>
+									</div>
+								</td>
+								<td>
+									<div class="price">170<span class="rub">p</span></div>
+								</td>
+								<td>
+									<div class="icon-delete"></div>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div class="photo"><img src="img/basket_photo.jpg" alt=""></div>
+								</td>
+								<td>
+									<h3><a href="#">АКБ HTC B0P6B100 ( One M8/One Dual M8/One Dual E8 ) Оригинал 100%</a></h3>
+								</td>
+								<td>
+									<div class="spinner">
+										<a href="javascript:;" data-spin="down"><i class="icon-prev"></i></a>
+										<input type="text" value="1" data-rule="quantity">
+										<a href="javascript:;" data-spin="up"><i class="icon-next"></i></a>
+									</div>
+								</td>
+								<td>
+									<div class="price">170<span class="rub">p</span></div>
+								</td>
+								<td>
+									<div class="icon-delete"></div>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div><!-- overflow -->
+
+				<section class="total">
+					<div class="price">Итого: &nbsp;2270<span class="rub">p</span></div>
+					<a href="#" class="btn small orange">Оформить заказ</a>
+				</section>
+			</div><!-- container -->
+
+		</div><!-- container -->
+	</div><!-- wrapper -->
+
+	<!-- FOOTER -->
+	<footer id="footer">
+		<section class="container">
+			<div class="col-3">
+				<p>&copy; 2015 ООО "ГОГА"</p>
+				<address>ул. Коммунистическая, д.2, офис 502 <br>г. Новосибирск, 630099</address>
+			</div>
+			<div class="col-3 center">
+				<p>Следите за нами</p>
+				<div class="social">
+					<a href="#" class="icon-vk"></a>
+					<a href="#" class="icon-od"></a>
+					<a href="#" class="icon-fb"></a>
+				</div>
+			</div>
+			<div class="col-3 right">Дизайн - Значко Илья</div>
+		</section>
+	</footer>
+
+	<script src="js/jquery-1.7.1.min.js"></script>
+	<script src="js/jquery.spinner.min.js"></script>
+	<script src="js/plugins-scroll.js"></script>
+	<script src="js/scripts.js"></script>
+	<script>
+		$(".spinner").spinner();
+	</script>
+</body>
+</html>
