@@ -3286,6 +3286,7 @@ b,strong
 	position: relative;
 	z-index: 5;
 	margin-bottom: 0;
+	margin-top: 10px;
 }
 .aside-menu p
 {
@@ -3350,8 +3351,8 @@ b,strong
 {
 	.main-slider
 	{
-		margin-left: 130px;
-		margin-right: 130px;
+		margin-left: 10%;
+		margin-right: 10%;
 	}
 	.bottom-line
 	{
@@ -3361,10 +3362,10 @@ b,strong
 	}
 	.content
 	{
-		margin-left: 130px;
-		margin-right: 130px;
-		width: calc(100% - 260px);
-		width: -webkit-calc(100% - 260px);
+		margin-left: 10%;
+		margin-right: 10%;
+		width: 80%;
+		width: 80%;
 	}
 	.content-text
 	{
