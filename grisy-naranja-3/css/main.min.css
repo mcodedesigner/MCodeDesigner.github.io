@@ -3641,6 +3641,10 @@ b,strong
 		left: inherit;
 		right: 8px;
 	}
+	.product-slider.owl-carousel .owl-item img {
+		height: auto;
+		width: 100%;
+	}
 	.brand-box
 	{
 		bottom: 0;
