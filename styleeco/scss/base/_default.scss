@@ -1,0 +1,47 @@
+::placeholder {
+	color: rgba(#000,.5);
+	transition: 1s;
+}
+:focus::placeholder {
+	color: transparent;
+}
+
+::selection {
+	background-color: $color-accent;
+	color: #fff;
+}
+
+body {
+	min-width: 320px;
+	overflow-x: hidden;
+	font: 16px/1.3 'Montserrat-Regular';
+	color: $color-black;
+}
+
+b, strong, h1, h2, h3, h4, h5, h6 {
+	font-family: 'Montserrat-Bold';
+}
+
+h1 {
+	font: 64px Georgia;
+	margin: 5px 0;
+}
+h3 {
+	font: 38px Georgia;
+	margin: 0;
+}
+h5 {
+	font: 17.5px 'Montserrat-Regular';
+	margin: 0;
+}
+
+input, textarea {
+	border: #777 1px solid;
+	outline: none;
+	&:focus:required:invalid {
+		border-color: red;
+	}
+	&:required:valid {
+		border-color: green;
+	}
+}
