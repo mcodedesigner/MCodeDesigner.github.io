@@ -3377,6 +3377,9 @@ b,strong
 	z-index: 5;
 	font-size: 16px;
 }
+.aside-menu p span {
+	font-weight: 300;
+}
 .aside-menu .i-map
 {
 	display: none;
