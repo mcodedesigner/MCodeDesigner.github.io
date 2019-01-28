@@ -3794,7 +3794,7 @@ b,strong
 	}
 }
 
-@media screen and (orientation: landscape) and (max-width:768px) { 
+@media screen and (orientation: landscape) and (max-width:812px) and (max-height:414px) { 
 	.landscape {
 		display: block;
 		width: 100%;
@@ -3807,6 +3807,58 @@ b,strong
 		background-size: cover;
 		z-index: 999;
 	}
+	.landscape > div {
+		width: 100%;
+		height: 100%;
+		position: relative;
+	}
+	.gif-logo {
+		width: 180px;
+		height: 180px;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		background: url('../img/logo-border.png') no-repeat center;
+		-webkit-background-size: cover;
+		background-size: cover;
+		z-index: 1;
+	}
+	.gif-logo:after {
+		content: '';
+		width: 90px;
+		height: 90px;
+		background: url('../img/border-phone.png') no-repeat center;
+		-webkit-background-size: cover;
+		background-size: cover;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		animation: rotatePhone  2s infinite ease-in-out;
+	}
+	.landscape .i-map {
+		width: 90px;
+		height: 104px;
+		-webkit-background-size: cover;
+		background-size: cover;
+		left: inherit;
+		right: 5%;
+		top: 10%;
+	}
+	@keyframes rotatePhone {
+		0% {
+			transform: translate(-50%, -50%) rotate(0deg);
+		}
+		50% {
+			transform: translate(-50%, -50%) rotate(-50deg);
+		}
+		100% {
+			transform: translate(-50%, -50%) rotate(0deg);
+		}
+	}
+}
+@media screen and (orientation: landscape) and (max-width:812px) and (min-height:375px) { 
 	.gif-logo {
 		width: 250px;
 		height: 250px;
@@ -3833,19 +3885,13 @@ b,strong
 		animation: rotatePhone  2s infinite ease-in-out;
 	}
 	.landscape .i-map {
-		left: 100%;
-		top: -40px;
-	}
-	@keyframes rotatePhone {
-		0% {
-			transform: translate(-50%, -50%) rotate(0deg);
-		}
-		50% {
-			transform: translate(-50%, -50%) rotate(-50deg);
-		}
-		100% {
-			transform: translate(-50%, -50%) rotate(0deg);
-		}
+		width: 110px;
+		height: 127px;
+		-webkit-background-size: cover;
+		background-size: cover;
+		left: inherit;
+		right: 5%;
+		top: 10%;
 	}
 }
 
