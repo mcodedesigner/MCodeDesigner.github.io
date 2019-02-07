@@ -3340,29 +3340,29 @@ b,strong
 	visibility: visible;
 }
 .number-phone--help {
-	width: 440px;
-	height: 186px;
+	width: 300px;
+	height: 126px;
 	position: absolute;
-	bottom: calc(100% + 60px);
+	bottom: calc(100% + 40px);
 	left: 50%;
-	margin-left: -220px;
+	margin-left: -150px;
 	background: #d4d4dc;
 	color: #323643;
-	font-size: 54px;
+	font-size: 38px;
 	text-align: center;
-	line-height: 186px;
+	line-height: 126px;
 	transition: .2s;
 	visibility: hidden;
 	opacity: 0;
 }
 .number-phone--help:after {
 	content: '';
-	border: 50px solid transparent;
+	border: 30px solid transparent;
 	border-top-color: #d4d4dc;
 	position: absolute;
 	top: 100%;
 	left: 50%;
-	margin-left: -50px;
+	margin-left: -30px;
 }
 .aside-menu
 {
