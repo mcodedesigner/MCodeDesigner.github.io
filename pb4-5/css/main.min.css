@@ -3249,7 +3249,7 @@ b,strong
 	left: 50%;
 	top: 30px;
 	transform: translateX(-50%);
-	animation: opacityLogo 1s infinite;
+	animation: opacityLogo 2s infinite;
 }
 @keyframes opacityLogo {
 	0% {
