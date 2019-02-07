@@ -3333,6 +3333,36 @@ b,strong
 	height: 10px;
 	background: url('../img/number.png');
 	margin-top: 11px;
+	position: relative;
+}
+.number-phone:hover .number-phone--help {
+	opacity: 1;
+	visibility: visible;
+}
+.number-phone--help {
+	width: 440px;
+	height: 186px;
+	position: absolute;
+	bottom: calc(100% + 60px);
+	left: 50%;
+	margin-left: -220px;
+	background: #d4d4dc;
+	color: #323643;
+	font-size: 54px;
+	text-align: center;
+	line-height: 186px;
+	transition: .2s;
+	visibility: hidden;
+	opacity: 0;
+}
+.number-phone--help:after {
+	content: '';
+	border: 50px solid transparent;
+	border-top-color: #d4d4dc;
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -50px;
 }
 .aside-menu
 {
@@ -3672,6 +3702,9 @@ b,strong
 }
 @media only screen and (max-width:768px)
 {
+	.wrap-1450 {
+		min-height: 500px;
+	}
 	.aside-menu
 	{
 		width: 100%;
