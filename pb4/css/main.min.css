@@ -3220,7 +3220,7 @@ b,strong
 .i-map
 {
 	width: 170px;
-	height: 196px;
+	height: 195px;
 	background: url(../img/i-map.png) no-repeat 0 0;
 	-webkit-background-size: cover;
 	background-size: cover;
@@ -3228,30 +3228,28 @@ b,strong
 	position: absolute;
 	top: 0;
 }
-.i-map:before {
-	content: '';
-	display: block;
-	width: 100%;
-	height: 100%;
-	background: url(../img/i-map-white.png) no-repeat 0 0;
+.i-map--marker {
+	display: inline-block;
+	width: 87px;
+	height: 133px;
+	background: url(../img/i-map--marker.png) no-repeat 0 0;
 	-webkit-background-size: cover;
 	background-size: cover;
 	position: absolute;
-	left: 0;
-	top: 0;
-	animation: opacityLogo  2s infinite ease-in-out;
+	right: 0;
+	top: 6px;
 }
-.i-map:after {
+.i-map--marker:after {
 	content: '';
-	display: block;
-	width: 94%;
-	height: 94%;
-	background: url(../img/i-map.png) no-repeat 0 0;
-	-webkit-background-size: cover;
-	background-size: cover;
+	width: 30px;
+	height: 30px;
+	background-color: #960a0a;
+	border-radius: 50%;
 	position: absolute;
-	left: 3%;
-	top: 3%;
+	left: 50%;
+	top: 30px;
+	transform: translateX(-50%);
+	animation: opacityLogo 1s infinite;
 }
 @keyframes opacityLogo {
 	0% {
@@ -3557,9 +3555,29 @@ b,strong
 	.i-map
 	{
 		height: 115px;
-		left: 76px;
-		top: 0;
+		left: 58px;
+		top: inherit;
 		width: 100px;
+		bottom: 129px;
+	}
+	.i-map--marker {
+		width: 50px;
+		height: 76px;
+		-webkit-background-size: cover;
+		background-size: cover;
+		top: 3px;
+	}
+	.i-map--marker:after {
+		content: '';
+		width: 16px;
+		height: 16px;
+		background-color: #960a0a;
+		border-radius: 50%;
+		position: absolute;
+		left: 50%;
+		top: 16px;
+		transform: translateX(-50%);
+		animation: opacityLogo 1s infinite;
 	}
 	.brand-element
 	{
