@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'Arvo';
+  src: url('fonts/Arvo/Arvo.eot?#iefix') format('embedded-opentype'),
+	   url('fonts/Arvo/Arvo.woff') format('woff'),
+	   url('fonts/Arvo/Arvo.ttf')  format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url('fonts/Montserrat-Bold/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
+	   url('fonts/Montserrat-Bold/Montserrat-Bold.woff') format('woff'),
+	   url('fonts/Montserrat-Bold/Montserrat-Bold.ttf')  format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PlayfairDisplay-BlackItalic';
+  src: url('fonts/PlayfairDisplay-BlackItalic/PlayfairDisplay-BlackItalic.eot?#iefix') format('embedded-opentype'),
+  	   url('fonts/PlayfairDisplay-BlackItalic/PlayfairDisplay-BlackItalic.otf')  format('opentype'),
+  	   url('fonts/PlayfairDisplay-BlackItalic/PlayfairDisplay-BlackItalic.woff') format('woff'),
+  	   url('fonts/PlayfairDisplay-BlackItalic/PlayfairDisplay-BlackItalic.ttf')  format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
