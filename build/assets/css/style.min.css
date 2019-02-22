@@ -3,6 +3,13 @@
 	height: auto;
 	max-height: 400px;
 	margin-bottom: 0;
+	overflow: hidden !important;
+	margin-right: -15px;
+	padding-right: 15px;
+	border-bottom: none;
+}
+.dropdown-menu-cart-wrapper .mCSB_outside+.mCSB_scrollTools {
+	right: 0;
 }
 .header-controls-cart {
     position: relative;
@@ -12,6 +19,7 @@
 	position: relative;
 	z-index: 1;
 	background-color: #fff;
+	border-top: 1px solid #e7e7e7;
 }
 .dropdown-menu-cart {
     display: none;
@@ -19,6 +27,9 @@
     min-width: 270px;
     padding: 1.2rem;
     border: 0;
+    position: absolute;
+    top: 30px;
+    right: -10px;
     border-radius: 18px;
     border-top-right-radius: 0;
     box-shadow: 0 0 50px 0 rgba(0,0,0,.08);
@@ -27,11 +38,11 @@
 .dropdown-menu-cart.active {
     display: block;
 }
-/*.dropdown-menu-cart:before {
+.dropdown-menu-cart:before {
     content: '';
     border: 10px solid transparent;
     border-bottom: 10px solid #fff;
     position: absolute;
     right: 0;
     top: -20px;
-}*/
+}
