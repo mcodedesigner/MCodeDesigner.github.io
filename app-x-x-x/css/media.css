@@ -1,0 +1,591 @@
+/* Large Devices, Wide Screens */
+@media only screen and (min-height : 900px) {
+
+.header h1 {
+	font-size: 68px;
+}
+.number-box {
+	height: 68px;
+}
+.top-bar {
+	margin-bottom: 40px;
+}
+
+}
+@media only screen and (max-width : 1346px) {
+
+.wrap-container {
+	width: 100%;
+}
+
+.box-arrow {
+	left: 100px;
+}
+.deposite-box.right .box-arrow {
+	right: 100px;
+}
+
+.steps-list .step-arrow {
+	left: 125px;
+    top: 150px;
+    transform: scale(.9);
+}
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+h1 {
+	font-size: 68px;
+}
+h2 {
+	font-size: 58px;
+}
+.subtitle {
+	font-size: 41px;
+}
+.header:after {
+	left: 55%;
+}
+.header h1 {
+	padding-left: 45px;
+}
+.header .button {
+	margin-left: 21px;
+}
+.top-bar {
+	height: 72px;
+	margin-bottom: 50px;
+} 
+.logo {
+	font-size: 48px;
+}
+.logo strong {
+	font-size: 52px;
+}
+.number-box {
+	height: 68px;
+}
+.button {
+	padding: 15px;
+}
+.button-inner {
+	height: 82px;
+	padding: 0 45px;
+}
+.phone-box {
+	justify-content: flex-start;
+}
+.phone-2 {
+	left: -220px;
+}
+.phone-1 {
+	left: 190px;
+}
+
+.main-content {
+	background: url('../img/bg.jpg');
+	height: auto;
+	padding-bottom: 30px;
+	padding-top: 0;
+}
+.deposite {
+	background: url('../img/gold.jpg') no-repeat center 50px;
+}
+.header-section {
+	height: 240px;
+	padding-right: 0;
+	margin-bottom: 0;
+}
+.deposite-box.left {
+	margin-left: -60px;
+}
+.deposite-box:after {
+	left: 20%;
+}
+.deposite-box.right {
+	margin-right: -60px;
+}
+.deposite-box.right:after {
+	right: 20%;
+}
+.deposite-bonus {
+	font-size: 60px;
+}
+
+.steps-list .step-dotted {
+	display: none;
+}
+.steps-list .step-arrow {
+	left: 36px;
+    top: 150px;
+    transform: scale(.9);
+}
+.steps-list li {
+	font-size: 19px;
+}
+.steps-list li:nth-child(1),
+.steps-list li:nth-child(2),
+.steps-list li:nth-child(3) {
+	width: 33.33%;
+	padding: 0 20px;
+}
+.steps-list li:after {
+	right: 30px;
+}
+.steps-list li:nth-child(1):before {
+    left: 37px;
+    top: 144px;
+    transform: scale(.9);
+}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+h1 {
+	font-size: 58px;
+}
+h2 {
+	font-size: 48px;
+}
+.header:before {
+	animation: headerBackground 6s infinite;
+}
+.button-inner,
+.normal .button-inner {
+	height: 68px;
+	padding: 0 30px;
+	font-size: 26px;
+}
+.deposite {
+    background: url(../img/gold.jpg) no-repeat right 50px;
+    background-size: 60%;
+}
+.deposite-box {
+	display: flex;
+	margin-bottom: -150px;
+}
+.deposite-box:after {
+	transform: scale(.8);
+	left: 50%;
+	top: 310px;
+}
+.deposite-box.left .box-arrow {
+	left: 50%;
+}
+.deposite-box.right .box-arrow {
+	display: none;
+}
+.deposite-box.right {
+	float: none;
+	margin-left: auto;
+	margin-bottom: -100px;
+}
+.deposite-box.right:after {
+	display: none;
+}
+.header-section {
+	height: auto;
+	padding: 70px 0 40px;
+}
+.header-section .br-phone {
+	display: block;
+}
+
+.feature {
+	padding-bottom: 80px;
+	margin-bottom: 80px;
+}
+.feature-list {
+	flex-wrap: wrap;
+}
+.feature-list li {
+	width: 33.33%;
+	padding-bottom: 30px;
+}
+.feature-list li:nth-child(3):after {
+	display: none;
+}
+
+.steps-list .step-arrow {
+	left: 15px;
+    top: 150px;
+    transform: scale(.7);
+}
+.steps-list li {
+	font-size: 21px;
+}
+.steps-list li:after,
+.steps-list li:nth-child(1):before {
+	display: none;
+}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+.wrap-container {
+	max-width: 375px;
+}
+
+html {
+	background: #151120 url('../img/bg.jpg') center;
+}
+body {
+	background: url('../img/bg-phone.jpg') no-repeat center top;
+}
+h1 {
+	font-size: 24px;
+}
+h2 {
+	font-size: 24px;
+}
+.subtitle {
+	font-size: 21px;
+	height: 21px;
+	line-height: 21px;
+	padding: 0 5px;
+	margin: 5px 0 0 0;
+}
+.button {
+	padding: 0;
+}
+.button-inner {
+	height: 50px;
+	padding: 0 25px;
+	font-size: 16px;
+}
+.button:after {
+	width: 100%;
+	height: calc(100% + 6px);
+	left: -1px;
+	top: -4px;
+}
+.normal .button-inner {
+	height: 50px;
+	padding: 0 25px;
+	font-size: 16px;
+}
+.header {
+	background: none;
+	min-height: 540px;
+	max-height: 700px;
+	height: 100vh;
+}
+.header:after {
+	display: none;
+}
+.header h1 {
+	padding: 0;
+    margin-left: 37px;
+    line-height: 1.3;
+    letter-spacing: .03em;
+}
+.header h1 .letter-spacing {
+	letter-spacing: .13em;
+}
+.header h1 br {
+	display: none;
+}
+.header .button {
+	margin: 33px 0 0 37px;
+    letter-spacing: .015em;
+}
+.top-bar {
+	height: 38px;
+	margin-bottom: 52px;
+}
+.logo {
+	font-size: 26px;
+	left: 0;
+}
+.logo strong {
+	font-size: 28px;
+}
+.number-box {
+	height: 24px;
+	border-radius: 2px;
+	padding: 0 4px;
+	margin: 0;
+	left: 0;
+}
+.number-box span {
+	line-height: 26px;
+}
+
+.main-content {
+	height: auto;
+	background: none;
+	padding-bottom: 10px;
+}
+
+.phone-box {
+	justify-content: center;
+}
+.phone-box:after {
+	content: '';
+	display: block;
+	width: 168px;
+	height: 463px;
+	background: url('../img/girl.png');
+	position: relative;
+	right: -21px;
+}
+.phone-1 {
+	display: none;
+}
+.phone-2 {
+	transform: none;
+	width: 163px;
+	height: 313px;
+	background: url('../img/phone-2--phone.png') no-repeat;
+	left: 21px;
+}
+
+.header-section {
+	padding: 30px 0;
+}
+
+.deposite {
+	height: 475px;
+	position: relative;
+    background: url(../img/gold.png) no-repeat 3px 244px;
+    background-size: none;
+    margin-bottom: 30px;
+}
+.deposite .button {
+	position: absolute;
+	bottom: 21px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.deposite .button-inner {
+	width: 236px;
+	display: flex;
+	justify-content: center;
+	padding: 0;
+	letter-spacing: .1em;
+}
+.deposite-box {
+	display: block;
+	width: 220px;
+	height: auto;
+	padding: 0;
+	margin: 0;
+}
+.deposite-box > div {
+	width: auto;
+	height: auto;
+}
+.deposite-box.left {
+	margin: 0 0 36px 0;
+	width: 290px;
+	position: relative;
+}
+.deposite-box.left .box-arrow {
+	top: inherit;
+	bottom: -83px;
+	left: 58px;
+	width: 66px;
+	height: 91px;
+	background: url(../img/responsive/arrow-1.png) no-repeat;
+	transform: none;
+}
+.deposite-box.right {
+	margin: 0;
+	float: none;
+	display: flex;
+	margin-left: auto;
+	width: 310px;
+}
+.deposite-bonus {
+	font-size: 42px;
+	padding: 0;
+}
+.deposite-box h5 {
+	font-size: 14px;
+	margin: 10px 0 15px;
+}
+.deposite-box p {
+	font-size: 13px;
+	line-height: 15px;
+	margin: 0;
+}
+.deposite-box mark {
+	display: inline-block;
+	height: 15px;
+	line-height: 16px;
+}
+
+
+.steps h2 {
+	padding-right: 13px;
+}
+.steps .button {
+	display: none;
+}
+.steps-list {
+	display: block;
+	margin: 0;
+	height: 244px;
+	position: relative;
+}
+.steps-list .step-arrow {
+	display: none;
+}
+.steps-list li {
+	height: 0;
+}
+.steps-list li p {
+	font-size: 18px;
+	position: absolute;
+	padding: 0;
+	left: 0;
+	top: 0;
+}
+.step-arrow--phone {
+	display: block;
+}
+.steps-list li:nth-child(1) p {
+	left: 93px;
+	top: 25px;
+}
+.steps-list li:nth-child(2) p {
+	position: absolute;
+	left: 181px;
+	top: 124px;
+}
+.steps-list li:nth-child(3) p {
+	left: 254px;
+    top: 236px;
+}
+.steps-list li:nth-child(1) .step-arrow--phone {
+	left: 60px;
+    top: 95px;
+}
+.steps-list li:nth-child(2) .step-arrow--phone {
+	left: 129px;
+	top: 196px;
+	animation-delay: .3s;
+}
+.step-one {
+	position: absolute;
+	left: 36px;
+	top: -48px;
+	transform: scale(.74);
+}
+.step-two {
+	position: absolute;
+	left: 94px;
+	top: 52px;
+	transform: scale(.74);
+}
+.step-three {
+	position: absolute;
+    left: 165px;
+    top: 164px;
+    transform: scale(.74);
+}
+
+
+.feature {
+	display: none;
+}
+
+
+.feature-phone {
+	display: block;
+	text-align: center;
+}
+.feature-phone h2 {
+	margin-bottom: 20px;
+}
+.feature-phone .icon-box {
+	height: 100px;
+	position: relative;
+}
+.feature-phone [class*='feature--icon'] {
+	position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+}
+.feature-phone h4 {
+	font-size: 19px;
+	padding-bottom: 36px;
+}
+
+.footer {
+	font-size: 14px;
+	padding-top: 60px;
+}
+
+}
+
+@media only screen and (min-width : 375px) and (max-width : 414px) {
+
+h2 {
+	font-size: 28px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.header h1 {
+	margin-right: 27px;
+	font-size: 28px;
+}
+.subtitle {
+	height: 26px;
+	line-height: 26px;
+	font-size: 23px;
+}
+.header-section {
+	padding-bottom: 50px;
+}
+.deposite-box h5 {
+	font-size: 17px;
+}
+.deposite-box p {
+	font-size: 15px;
+}
+.deposite-box.left {
+	width: 260px;
+}
+.deposite-box.right {
+	width: 280px;
+}
+
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 540px) {
+	.header:before {
+		display: none;
+	}
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) and (max-width : 375px) {
+.deposite {
+	background-position: -20px 224px;
+}
+.deposite .button {
+	bottom: 30px;
+}
+.deposite-box.left {
+	width: 220px;
+}
+.deposite-box.left .box-arrow {
+	left: 30px;
+}
+.deposite-box.right {
+	width: 240px;
+}
+}
