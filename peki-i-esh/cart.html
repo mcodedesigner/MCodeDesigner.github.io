@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+
+	<!-- base -->
+	<meta charset="utf-8">
+	<title>Пеки и Ешь – всё, что нужно для выпечки!</title>
+	<meta name="description" content="">
+
+	<!-- favicon -->
+	<link rel="shortcut icon" href="img/favicon/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+
+	<!-- viewport -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link rel="stylesheet" href="libs/bootstrap-3.3.5-dist/css/bootstrap.min.css">
+	
+	<!-- style css -->
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<a href="#" class="write-to-us">напишите нам</a>
+
+<div class="user-bar">
+	<a href="#" data-tooltip="Корзина" data-tooltip-location="left"><i class="i-cart"></i><span class="user-bar-info">0</span></a>
+	<a href="#" data-tooltip="Избранное" data-tooltip-location="left"><i class="i-heart"></i><span class="user-bar-info">1</span></a>
+	<a href="#" data-tooltip="Cравнение" data-tooltip-location="left"><i class="i-comparison"></i></a>
+	<a href="#" data-tooltip="Личный кабинет" data-tooltip-location="left"><i class="i-unlock"></i></a>
+</div>
+
+<div class="sandwich-box" id="sandwich-1">
+	<span class="sandwich-icon">
+		<i class="sandwich-top"></i>
+		<i class="sandwich-center"></i>
+		<i class="sandwich-bottom"></i>
+	</span>
+</div>
+
+<section class="s-top">
+	<div class="container">
+		<div class="your-city"><i class="i-loc"></i>Ваш город: <a href="#">Калининград</a></div>
+		<nav class="main-nav">
+			<a href="#">О магазине</a>
+			<a href="#">Акции</a>
+			<a href="#">Статьи</a>
+			<a href="#">Оплата и Доставка</a>
+			<a href="#">Отзывы</a>
+			<a href="#">Контакты</a>
+		</nav>
+	</div> <!-- /.container -->
+</section> <!-- /.s-top -->
+
+<header class="header">
+	<div class="container">
+		<a href="#" class="logo">Пеки и Ешь – всё, что нужно для выпечки</a>
+		<div class="header-contact">
+			<div class="header-contact--item">
+				<h6>Адрес наших магазинов:</h6>
+				<p><i class="i-store"></i>Громовой 6</p>
+			</div> <!-- /.header-contact--item -->
+
+			<div class="header-contact--item">
+				<h6>Часы работы: ежеднавно:</h6>
+				<p><i class="i-clock"></i>10:00-20:00</p>
+			</div> <!-- /.header-contact--item -->
+
+			<div class="header-contact--item">
+				<h6>По любым вопросам звоните: </h6>
+				<p><i class="i-mobile"></i>+7(962) 260 2005</p>
+
+				<div class="callback-wrap" id="callback-id1">
+					<span class="callback-link">Заказать обратный звонок</span>
+					<from class="callback-form">
+						<input type="text" placeholder="Ваше имя">
+						<input type="tel" placeholder="Ваш телефон">
+						<button type="submit" class="btn-user">Отправить</button>
+					</form>
+				</div><!-- /.callback-wrap -->
+			</div> <!-- /.header-contact--item -->
+		</div> <!-- /.header-contact -->
+	</div> <!-- /.container -->
+</header> <!-- /.header -->
+
+<section class="s-search">
+	<div class="container">
+		<div class="cat-btn">
+			<div class="sandwich-box" id="sandwich-2">
+				<span class="sandwich-icon">
+					<i class="sandwich-top"></i>
+					<i class="sandwich-center"></i>
+					<i class="sandwich-bottom"></i>
+				</span>
+				Каталог товаров
+			</div>
+		</div> <!-- /.cat-btn -->
+
+		<form class="search">
+			<input type="search" placeholder="Поиск товаров">
+			<hr>
+			<button type="submit"><i class="i-search"></i></button>
+		</form> <!-- /.search -->
+	</div> <!-- /.container -->
+</section> <!-- /.s-search -->
+
+<section class="s-header-content bg-s-header">
+	<div class="container">
+		<nav class="cat-nav">
+			<a href="#"><i class="i-harvest"></i>Пищевые ингредиенты</a>
+			<a href="#"><i class="i-candy-cane"></i>Декор</a>
+			<a href="#"><i class="i-chocolate"></i>Шоколад и какао продукты</a>
+			<a href="#"><i class="i-birthday"></i>Мастика и марципан</a>
+			<a href="#"><i class="i-paint-tube"></i>Пищевые красители</a>
+			<a href="#"><i class="i-pastry-bag"></i>Кондитерские мешки</a>
+			<a href="#"><i class="i-gift"></i>Упаковка</a>
+			<a href="#"><i class="i-doughnut"></i>Айсинг,кружево и сахарная глазурь</a>
+			<a href="#"><i class="i-mixer"></i>Оборудование</a>
+			<a href="#"><i class="i-balloons"></i>Все для праздника</a>
+			<a href="#"><i class="i-recipe"></i>Литература</a>
+		</nav>
+
+		<aside>
+			<div class="cart">
+
+				<nav class="nav-bread">
+					<span><a href="#">Все товары</a></span>
+					<span><a href="#">Душистые травы</a></span>
+					<span><a href="#">Укроп сушёный</a></span>
+				</nav>
+
+				<div class="cart-info">
+					<picture class="cart-img"><img src="img/cart-img.jpg" alt="cart-img"></picture>
+
+					<div class="cart-description">
+						<h3>
+							<strong>Укроп сушёный</strong>
+							<div class="cart-btn">
+								<button><i class="i-heart" data-tooltip="Избранное" data-tooltip-location="top"></i></button>
+								<button><i class="i-comparison" data-tooltip="Cравнение" data-tooltip-location="top"></i></button>
+							</div>
+						</h3>
+
+						<div class="cart-data">
+							<span class="cart-data-item">Артикул: <strong>12935</strong></span>
+							<span class="cart-data-item">Наличие: <span>Есть в наличии</span></span>
+							<span class="cart-data-item">Количество: <strong>01</strong> шт.</span>
+						</div>
+
+						<div class="cart-price">
+							<div class="pricebox">Цена: <strong>56 руб.</strong></div>
+							<a href="#" class="add-cart"><i class="i-cart"></i><span>Добавить в корзину</span></a>
+						</div>
+
+						<div class="cart-rating">
+
+							<div class="rating checked">
+								<input id="star1_1"  name="rating_1" type="radio" checked />
+							  	<label for="star1_1"></label>
+
+								<input id="star1_2" name="rating_1" type="radio" />
+								<label for="star1_2"></label>
+
+								<input id="star1_3" name="rating_1" type="radio" />
+								<label for="star1_3"></label>
+
+								<input id="star1_4" name="rating_1" type="radio" />
+								<label for="star1_4"></label>
+
+								<input id="star1_5" name="rating_1" type="radio" />
+								<label for="star1_5"></label>
+
+								<div class="rating-result">Голосов: 10</div>
+							</div> <!-- /.rating -->
+
+							<div class="rating">
+								<input id="star2_1"  name="rating_2" type="radio" />
+							 	<label for="star2_1"></label>
+
+								<input id="star2_2" name="rating_2" type="radio" />
+								<label for="star2_2"></label>
+
+								<input id="star2_3" name="rating_2" type="radio" />
+								<label for="star2_3"></label>
+
+								<input id="star2_4" name="rating_2" type="radio" />
+								<label for="star2_4"></label>
+
+								<input id="star2_5" name="rating_2" type="radio" />
+								<label for="star2_5"></label>
+
+								<div class="rating-result">Оценить</div>
+							</div> <!-- /.rating -->
+
+						</div> <!-- /.cart-rating -->
+					</div> <!-- /.cart-description -->
+				</div> <!-- /.cart-info -->
+
+				<section class="m-code--tabs" id="product-tab">
+
+					<div class="m-tabs-nav">
+						<a href="#" class="m-tabs-nav__link is-active">Описание</a>
+						<a href="#" class="m-tabs-nav__link">Отзывы</a>
+					</div> <!-- /.m-tabs-nav -->
+
+					<div class="tab-content">
+						<div class="m-tab is-active">
+							<div class="m-tab__content">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo at asperiores voluptatem, ex aliquid excepturi velit provident ad quia praesentium, debitis esse adipisci, recusandae autem commodi temporibus impedit! Unde, quae dolores. Fuga perspiciatis sapiente perferendis, quia cum. Inventore repellendus, sed totam minus consequuntur eaque numquam labore, ex enim dolorem, libero voluptatibus accusamus placeat nobis voluptate aliquam corporis rem. Nostrum, architecto!</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo at asperiores voluptatem, ex aliquid excepturi velit provident ad quia praesentium, debitis esse adipisci, recusandae autem commodi temporibus impedit!</p>
+							</div> <!-- /.m-tab__content -->
+						</div> <!-- /.m-tab -->
+
+						<div class="m-tab">
+							<div class="m-tab__content">
+
+								<div class="s-review">
+									<div class="review-item">
+										<picture class="review-photo"><img src="img/photo-1.jpg" alt="photo"></picture>
+										<aside class="review-info">
+											<div class="review-name">
+												<strong>Анастасия Юрьевна</strong>
+												<span>Калининград</span>
+											</div>
+											<div class="review-text">
+												<p>
+													"Очень хороший магазин! Просто отличный! Ассортимент всегда хороший!"
+												</p>
+											</div>
+										</aside>
+										<i class="i-chat"></i>
+									</div> <!-- /.review-item -->
+
+									<div class="review-item">
+										<picture class="review-photo"><img src="img/photo-2.jpg" alt="photo"></picture>
+										<aside class="review-info">
+											<div class="review-name">
+												<strong>Екатерина Андреевна</strong>
+												<span>Калининград</span>
+											</div>
+											<div class="review-text">
+												<p>
+													"Очень вежливый персонал: помогут, расскажут и всегда с улыбкой! Буду рекоменжовать Вас всем своим родным и близким."
+												</p>
+											</div>
+										</aside>
+										<i class="i-chat"></i>
+									</div> <!-- /.review-item -->
+								</div> <!-- /.s-review -->
+
+							</div> <!-- m-tab__content -->
+						</div> <!-- m-tab -->
+					</div> <!-- .юtab-content -->
+					
+				</section> <!-- /.m-code--tabs -->
+
+				<div class="viewed">
+					<h3>Похожие товары</h3>
+					<div class="viewed-wrap">
+						<div class="product-item hit">
+							<a href="#" class="product-link">
+								<picture><img src="img/product-img--1.jpg" alt="product-img"></picture>
+								<h4>Ячменная мука<br> «С. Пудовъ», 400 гр.</h4>
+								<div class="pricebox">Цена: <strong>56 руб.</strong></div>
+							</a>
+							<div class="product-bar">
+								<a href="#" data-tooltip="Сравнение" data-tooltip-location="top"><i class="i-comparison"></i></a>
+								<a href="#" data-tooltip="Корзина" data-tooltip-location="top"><i class="i-cart"></i></a>
+								<a href="#" data-tooltip="В закладки" data-tooltip-location="top"><i class="i-heart"></i></a>
+							</div>
+						</div> <!-- /.product-item -->
+						<div class="product-item">
+							<a href="#" class="product-link">
+								<picture><img src="img/product-img--7.jpg" alt="product-img"></picture>
+								<h4>Смесь для кексов <br>бисквита ванильная</h4>
+								<div class="pricebox">Цена: <strong>80 руб.</strong></div>
+							</a>
+							<div class="product-bar">
+								<a href="#" data-tooltip="Сравнение" data-tooltip-location="top"><i class="i-comparison"></i></a>
+								<a href="#" data-tooltip="Корзина" data-tooltip-location="top"><i class="i-cart"></i></a>
+								<a href="#" data-tooltip="В закладки" data-tooltip-location="top"><i class="i-heart"></i></a>
+							</div>
+						</div> <!-- /.product-item -->
+						<div class="product-item">
+							<a href="#" class="product-link">
+								<picture><img src="img/product-img--7.jpg" alt="product-img"></picture>
+								<h4>Смесь для кексов <br>бисквита ванильная</h4>
+								<div class="pricebox">Цена: <strong>80 руб.</strong></div>
+							</a>
+							<div class="product-bar">
+								<a href="#" data-tooltip="Сравнение" data-tooltip-location="top"><i class="i-comparison"></i></a>
+								<a href="#" data-tooltip="Корзина" data-tooltip-location="top"><i class="i-cart"></i></a>
+								<a href="#" data-tooltip="В закладки" data-tooltip-location="top"><i class="i-heart"></i></a>
+							</div>
+						</div> <!-- /.product-item -->
+					</div>
+				</div> <!-- /.viewed -->
+
+				<div class="viewed">
+					<h3>Вы смотрели</h3>
+					<div class="viewed-wrap">
+						<div class="product-item hit">
+							<a href="#" class="product-link">
+								<picture><img src="img/product-img--1.jpg" alt="product-img"></picture>
+								<h4>Ячменная мука<br> «С. Пудовъ», 400 гр.</h4>
+								<div class="pricebox">Цена: <strong>56 руб.</strong></div>
+							</a>
+							<div class="product-bar">
+								<a href="#" data-tooltip="Сравнение" data-tooltip-location="top"><i class="i-comparison"></i></a>
+								<a href="#" data-tooltip="Корзина" data-tooltip-location="top"><i class="i-cart"></i></a>
+								<a href="#" data-tooltip="В закладки" data-tooltip-location="top"><i class="i-heart"></i></a>
+							</div>
+						</div> <!-- /.product-item -->
+					</div>
+				</div> <!-- /.viewed -->
+
+			</div> <!-- /.cart -->
+		</aside>
+	</div> <!-- /.container -->
+</section> <!-- /.s-header-content -->
+
+
+<div class="wrap-bg">
+	<section class="review">
+		<hgroup class="s-title">
+			<h2>А вот как отзываются о нас покупатели:</h2>
+			<div class="s-title--element"></div>
+		</hgroup>
+		<div class="owl-carousel owl-theme owl-review">
+			<div class="review-item">
+				<picture class="review-photo"><img src="img/photo-1.jpg" alt="photo"></picture>
+				<aside class="review-info">
+					<strong>Анастасия Юрьевна</strong>
+					<span>Калининград</span>
+					<p>
+						"Очень хороший магазин!<br>
+						Просто отличный!<br>
+						Ассортимент всегда хороший!"
+					</p>
+				</aside>
+				<i class="i-chat"></i>
+			</div> <!-- /.review-item -->
+			
+			<div class="review-item">
+				<picture class="review-photo"><img src="img/photo-2.jpg" alt="photo"></picture>
+				<aside class="review-info">
+					<strong>Екатерина Андреевна</strong>
+					<span>Калининград</span>
+					<p>
+						"Очень вежливый персонал: помогут,<br>
+						расскажут и всегда с улыбкой! Буду<br>
+						рекоменжовать Вас всем своим родным и<br>
+						близким. " 
+					</p>
+				</aside>
+				<i class="i-chat"></i>
+			</div> <!-- /.review-item -->
+
+			<div class="review-item">
+				<picture class="review-photo"><img src="img/photo-3.jpg" alt="photo"></picture>
+				<aside class="review-info">
+					<strong>Алена</strong>
+					<span>Калининград</span>
+					<p>
+						"Очень крутая сеть, все отлично, по доступным<br>
+						ценам, ассортимент большой и расположение<br>
+						отличное"
+					</p>
+				</aside>
+				<i class="i-chat"></i>
+			</div> <!-- /.review-item -->
+
+			<div class="review-item">
+				<picture class="review-photo"><img src="img/photo-2.jpg" alt="photo"></picture>
+				<aside class="review-info">
+					<strong>Екатерина Андреевна</strong>
+					<span>Калининград</span>
+					<p>
+						"Очень вежливый персонал: помогут,<br>
+						расскажут и всегда с улыбкой! Буду<br>
+						рекоменжовать Вас всем своим родным и<br>
+						близким. " 
+					</p>
+				</aside>
+				<i class="i-chat"></i>
+			</div> <!-- /.review-item -->
+		</div> <!-- /.owl-carousel -->
+
+		<footer>
+			<a href="#">Читать еще отзывы...</a>
+		</footer>
+	</section> <!-- /.review -->
+
+
+	<section class="subscribe">
+		<div class="container">
+			<h3>Учим готовить изысканно и полезно с пряностями <br>Подпишитесь на нашу рассылку с рецептами!</h3>
+			<form>
+				<div>
+					<span class="m-code-checkbox">
+						<input id="checkbox-1" type="checkbox">
+						<label for="checkbox-1">Новости и акции</label>
+					</span>
+					<span class="m-code-checkbox">
+						<input id="checkbox-2" type="checkbox" checked>
+						<label for="checkbox-2">Рецепты и обзоры</label>
+					</span>
+				</div>
+				<input type="email" placeholder="укажите свой e-mail">
+				<button type="submit" class="btn-user">Хочу научиться</button>
+			</form>
+		</div> <!-- /.container -->
+	</section> <!-- /.subscribe -->
+</div>
+
+
+<footer class="footer">
+	<div class="container">
+		<div class="footer-top">
+			<a href="#" class="logo-white">Пеки и Ешь – всё, что нужно для выпечки</a>
+			<nav class="footer-nav">
+				<a href="#">О магазине</a>
+				<a href="#">Акции</a>
+				<a href="#">Статьи</a>
+				<a href="#">Оплата и Доставка</a>
+				<a href="#">Отзывы</a>
+				<a href="#">Контакты</a>
+			</nav>
+			<div class="footer-phone">
+				<strong><i class="i-phone"></i>+7(962) 260 2005</strong>
+				
+				<div class="callback-wrap" id="callback-id2">
+					<span class="callback-link">заказать звонок</span>
+					<from class="callback-form">
+						<input type="text" placeholder="Ваше имя">
+						<input type="tel" placeholder="Ваш телефон">
+						<button type="submit" class="btn-user">Отправить</button>
+					</form>
+				</div><!-- /.callback-wrap -->
+			</div>
+		</div> <!-- /.footer-top -->
+		<div class="footer-bottom">
+			<p class="footer-copyright">
+				© 2018 - 2019 ООО  “Пеки и ешь” <br>
+				Все права защищены
+			</p>
+			<div class="footer-social">
+				<a href="#"><i class="i-vk"></i></a>
+				<a href="#"><i class="i-fb"></i></a>
+				<a href="#"><i class="i-od"></i></a>
+				<a href="#"><i class="i-twitter"></i></a>
+			</div>
+			<div class="footer-links">
+				<a href="#">Политика конфедииальности</a><br>
+				<a href="#">Карта сайта</a>
+			</div>
+		</div> <!-- /.footer-top -->
+	</div> <!-- /.container -->
+</footer> <!-- /.footer -->
+
+<nav class="fullscreen-menu">
+	<div class="cat-nav--modal">
+		<ul>
+			<li><a href="#"><i class="i-harvest"></i>Пищевые ингредиенты</a></li>
+			<li><a href="#"><i class="i-candy-cane"></i>Декор</a></li>
+			<li><a href="#"><i class="i-chocolate"></i>Шоколад и какао продукты</a></li>
+			<li><a href="#"><i class="i-birthday"></i>Мастика и марципан</a></li>
+			<li><a href="#"><i class="i-paint-tube"></i>Пищевые красители</a></li>
+			<li><a href="#"><i class="i-pastry-bag"></i>Кондитерские мешки</a></li>
+			<li><a href="#"><i class="i-gift"></i>Упаковка</a></li>
+			<li><a href="#"><i class="i-doughnut"></i>Айсинг,кружево и сахарная глазурь</a></li>
+			<li><a href="#"><i class="i-mixer"></i>Оборудование</a></li>
+			<li><a href="#"><i class="i-balloons"></i>Все для праздника</a></li>
+			<li><a href="#"><i class="i-recipe"></i>Литература</a></li>
+			<i class="close-icon"></i>
+		</ul>
+	</div>
+</nav>
+
+<div class="fullscreen-nav">
+	<nav>
+		<a href="#">О магазине</a>
+		<a href="#">Акции</a>
+		<a href="#">Статьи</a>
+		<a href="#">Оплата и Доставка</a>
+		<a href="#">Отзывы</a>
+		<a href="#">Контакты</a>
+	</nav>
+</div>
+
+<!--[if lt IE 9]>
+	<script src="js/libs/html5shiv/es5-shim.min.js"></script>
+	<script src="js/libs/html5shiv/html5shiv.min.js"></script>
+	<script src="js/libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="js/libs/respond/respond.min.js"></script>
+<![endif]-->
+
+<script src="js/libs/jquery/jquery.3.3.1.min.js"></script>
+
+<script src="libs/bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+
+<script src="js/libs/plugins-scroll/plugins-scroll.js"></script>
+
+<script src="js/libs/owl.carousel/owl.carousel.min.js"></script>
+
+<script src="js/jquery.maskedinput.js"></script>
+
+<script src="js/jquery.sticky-kit.min.js"></script>
+
+<script src="js/common.js"></script>
+
+<script>
+	$('.s-search').stick_in_parent();
+	$('.cat-nav').stick_in_parent({
+		offset_top: 53
+	});
+</script>
+	
+</body>
+</html>
