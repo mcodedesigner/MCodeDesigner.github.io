@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'HaginCapsMedium';
+  src: url('../fonts/HaginCapsMedium/HaginCapsMedium.eot?#iefix') format('embedded-opentype'),  url('../fonts/HaginCapsMedium/HaginCapsMedium.otf')  format('opentype'),
+	     url('../fonts/HaginCapsMedium/HaginCapsMedium.woff') format('woff'), url('../fonts/HaginCapsMedium/HaginCapsMedium.ttf')  format('truetype'), url('../fonts/HaginCapsMedium/HaginCapsMedium.svg#HaginCapsMedium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');

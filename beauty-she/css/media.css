@@ -1,0 +1,250 @@
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1300px) {
+
+.header .nav {
+	margin-right: auto;
+}
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1300px) {
+
+.header .logo {
+	margin-left: 0;
+}
+.header-phone {
+	margin-right: 15px;
+}
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+.header {
+	background-image: url(../img/bg-header-1200.jpg);
+}
+.header .nav {
+	display: none;
+}
+
+.bonus-system {
+	background-image: url(../img/bg-bonus-1200.jpg);
+}
+
+.portfolio-layout {
+	background-image: url(../img/bg-portfolio-1200.jpg);
+}
+
+.offer {
+	background-image: url(../img/bg-offer-1200.jpg);
+}
+
+.footer {
+	background-image: url(../img/bg-footer-1200.jpg);
+}
+
+.sandwich-icon {
+	display: block;
+}
+
+.header .logo {
+	margin-left: 3rem;
+}
+.header-phone {
+	margin: 0px 104px 0 0;
+}
+
+.owl-carousel {
+	overflow: hidden;
+}
+.owl-carousel .owl-prev {
+	left: 0;
+}
+.owl-carousel .owl-next {
+	right: 0;
+}
+
+.footer-form {
+	left: 0;
+}
+
+#expert-slider {
+	padding-left: 8rem;
+	padding-right: 8rem;
+}
+
+.service p {
+	font-size: 1.6rem;
+}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+	.container-responsive {
+		max-width: 100%;
+	}
+	.header-hgroup .container {
+		max-width: 100%;
+	}
+
+	.footer {
+		height: auto;
+	}
+	.footer .container {
+		max-width: 100%;
+	}
+
+	.service {
+		max-width: 600px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.service-item {
+		width: 50%;
+		padding: 2rem;
+	}
+
+	.expert-photo {
+		width: 30%;
+		height: 30%;
+		margin: 0 15px 15px 3px;
+	}
+	.expert-descrp {
+		float: none;
+		width: auto;
+		padding-left: 3px;
+		font-size: 1.6rem;
+	}
+
+	#expert-slider {
+		padding-bottom: 2rem;
+	}
+
+	.icon-left,
+	.icon-right {
+		width: 4rem;
+		height: 4rem;
+	}
+
+	#portfolio-carousel {
+		padding: 0;
+	}
+
+	.review .col-10 {
+		flex: 0 0 100%;
+    	max-width: 100%;
+	}
+	.review-item {
+		min-height: auto;
+	}
+
+	.footer-contact {
+		left: 1.5rem;
+	}
+	.footer-map {
+		margin-top: 2.5rem;
+	}
+	.footer .col-lg-5 {
+		left: 0;
+		padding: 0 15px;
+	}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	h1 {
+		font-size: 5rem;
+	}
+	h2 {
+		font-size: 3rem;
+	}
+	.beauty-she-logo {
+		width: 305px;
+		margin-bottom: 15px;
+	}
+	.header {
+		background-position: center top;
+	}
+	.header-phone {
+		font-size: 2rem;
+	}
+
+	.price-list {
+		padding: 3rem 0;
+	}
+
+	.service-item {
+		width: 100%;
+	}
+
+	#expert-slider {
+		padding: 0 4rem; 
+	}
+	#expert-slider .icon-right {
+		float: right;
+	}
+	.expert-photo {
+		float: none;
+		width: 222px;
+		height: 222px;
+		margin: 0 auto 20px;
+	}
+	.expert-descrp p {
+		padding-right: 0;
+		text-align: justify;
+	}
+
+
+	.review-photo {
+		width: 150px;
+		height: 150px;
+		float: none;
+		margin: 0 auto 15px;
+	}
+	#review-slider {
+		margin-bottom: 0;
+	}
+	#review-slider .owl-dots {
+		left: 50%;
+		right: auto;
+		transform: translateX(-50%);
+	}
+	#review-slider .owl-stage-outer {
+		padding-bottom: 3rem;
+	}
+
+	.price {
+		padding: 6rem 0;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+	.header {
+		background-image: url(../img/bg-header-600.jpg);
+	}
+
+	.bonus-system {
+		background-image: url(../img/bg-bonus-600.jpg);
+	}
+
+	.portfolio-layout {
+		background-image: url(../img/bg-portfolio-600.jpg);
+	}
+
+	.offer {
+		background-image: url(../img/bg-offer-600.jpg);
+	}
+
+	.footer {
+		background-image: url(../img/bg-footer-600.jpg);
+	}
+
+}

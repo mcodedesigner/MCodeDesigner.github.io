@@ -1,0 +1,15 @@
+{
+  "name": "beauty-she",
+  "version": "1.0.0",
+  "description": "front-end development",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/style.scss css/style.css -w"
+  },
+  "author": "MCodeDesigner",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.10.0"
+  }
+}

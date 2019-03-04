@@ -1,0 +1,8 @@
+
+@font-face {
+  font-family: 'HaginCapsMedium';
+  src: url('HaginCapsMedium.eot?#iefix') format('embedded-opentype'),  url('HaginCapsMedium.otf')  format('opentype'),
+	     url('HaginCapsMedium.woff') format('woff'), url('HaginCapsMedium.ttf')  format('truetype'), url('HaginCapsMedium.svg#HaginCapsMedium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
