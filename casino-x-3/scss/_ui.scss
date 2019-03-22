@@ -1,0 +1,221 @@
+.button {
+	height: 90px;
+	padding: 0 80px;
+	background-color: $accent;
+	border: none;
+	border-radius: 45px;
+	color: #fff;
+	text-align: center;
+	position: relative;
+	cursor: pointer;
+	font-weight: 800;
+	font-size: 32px;
+	line-height: 90px;
+	transition: .5s;
+	&:hover {
+		transform: scale(1.1);
+		text-shadow: 0 0 25px #fff;
+		background-color: lighten($accent, 5%);
+	}
+	&:active {
+		transition: none;
+		transform: scale(1);
+	}
+	&:hover:focus {
+		outline: none;
+	}
+	&.outline {
+		background-color: transparent;
+		border: 5px solid $accent;
+		height: 80px;
+		line-height: 70px;
+		color: $accent;
+		padding: 0 130px;
+		&:hover {
+			background-color: $accent;
+			color: #fff; 
+		}
+	}
+	&.big {
+		height: 106px;
+		line-height: 106px;
+		border-radius: 53px;
+		font-size: 38px;
+		padding: 0 100px;
+	}
+}
+
+.number {
+	display: inline-block;
+	font: 271px/.7 'Circe-ExtraBold';
+	color: $yellow;
+	text-shadow: -1.5px 0 #364e65, 0 1.5px #364e65, 1.5px 0 #364e65, 0 -1.5px #364e65;
+	vertical-align: center;
+}
+
+.i-notes {
+	display: inline-block;
+	width: 156px;
+	height: 156px;
+	border: 7px solid #253d57;
+	border-radius: 50%;
+	position: relative;
+	&:before {
+		content: '';
+		width: 79px;
+		height: 79px;
+		background: url('../img/i-notes.png');
+		background-size: cover;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		margin: -40px 0 0 -40px;
+	}
+}
+.i-gift {
+	display: inline-block;
+	width: 156px;
+	height: 156px;
+	border: 7px solid #253d57;
+	border-radius: 50%;
+	position: relative;
+	&:before {
+		content: '';
+		width: 79px;
+		height: 79px;
+		background: url('../img/i-gift.png');
+		background-size: cover;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		margin: -40px 0 0 -40px;
+	}
+}
+.i-chip {
+	display: inline-block;
+	width: 156px;
+	height: 156px;
+	border: 7px solid #253d57;
+	border-radius: 50%;
+	position: relative;
+	&:before {
+		content: '';
+		width: 85px;
+		height: 85px;
+		background: url('../img/i-chip.png');
+		background-size: cover;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		margin: -42.5px 0 0 -42.5px;
+	}
+}
+
+.i-777 {
+	display: inline-block;
+	width: 130px;
+	height: 130px;
+	border: 7px solid $blue;
+	border-radius: 50%;
+	position: relative;
+	transition: .5s;
+	&:before {
+		content: '';
+		width: 76px;
+		height: 71px;
+		background: url('../img/i-777.png');
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		margin: -35px 0 0 -34px;
+	}
+	&:hover {
+		background-color: $blue;
+		&:before {
+			background-position: -76px 0;
+		}
+	}
+}
+.i-cash {
+	display: inline-block;
+	width: 130px;
+	height: 130px;
+	border: 7px solid $blue;
+	border-radius: 50%;
+	position: relative;
+	transition: .5s;
+	&:before {
+		content: '';
+		width: 101px;
+		height: 67px;
+		background: url('../img/i-cash.png');
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		margin: -33px 0 0 -50px;
+	}
+	&:hover {
+		background-color: $blue;
+		&:before {
+			background-position: -101px 0;
+		}
+	}
+}
+.i-money {
+	display: inline-block;
+	width: 130px;
+	height: 130px;
+	border: 7px solid $blue;
+	border-radius: 50%;
+	position: relative;
+	transition: .5s;
+	&:before {
+		content: '';
+		width: 90px;
+		height: 57px;
+		background: url('../img/i-money.png');
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		margin: -28px 0 0 -45px;
+	}
+	&:hover {
+		background-color: $blue;
+		&:before {
+			background-position: -90px 0;
+		}
+	}
+}
+.i-fortuna {
+	display: inline-block;
+	width: 130px;
+	height: 130px;
+	border: 7px solid $blue;
+	border-radius: 50%;
+	position: relative;
+	transition: .5s;
+	&:before {
+		content: '';
+		width: 69px;
+		height: 68px;
+		background: url('../img/i-fortuna.png');
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		margin: -34px 0 0 -35px;
+	}
+	&:hover {
+		background-color: $blue;
+		&:before {
+			background-position: -69px 0;
+		}
+	}
+}
+
+
+.item__brand {
+	display: inline-block;
+	padding: 0 6px;
+	height: 52px;
+	overflow: hidden;
+}
