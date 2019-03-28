@@ -1,0 +1,56 @@
+
+@keyframes headerCircle {
+  0% {
+    left: -315px;
+  }
+  50% {
+    left: 0;
+  }
+  100% {
+    left: -315px;
+  }
+}
+
+@keyframes featuresCircle {
+  0% {
+    left: -320px;
+  }
+  50% {
+    left: -150px;
+  }
+  100% {
+    left: -320px;
+  }
+}
+@keyframes regCircle {
+  0% {
+    right: -230px;
+  }
+  50% {
+    right: -50px;
+  }
+  100% {
+    right: -230px;
+  }
+}
+
+@keyframes stepsIconFadeIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-50px, 0, 0);
+    -ms-transform: translate3d(-50px, 0, 0);
+    transform: translate3d(-50px, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+}
+
+.stepsIconFadeIn {
+  -webkit-animation-name: stepsIconFadeIn;
+  animation-name: stepsIconFadeIn;
+}
