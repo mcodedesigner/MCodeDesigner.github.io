@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="utf-8">
+
+  <title>Parallax.js | Relative Example</title>
+
+  <!-- Behavioral Meta Data -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+  <!-- Styles -->
+  <link rel="stylesheet" type="text/css" href="../assets/style.css"/>
+
+</head>
+<body>
+
+  <div id="container" class="container container--offset">
+    <div id="scene" class="scene border">
+      <img data-depth="1.00" src="../assets/images/layer1.png">
+      <img data-depth="1.80" src="../assets/images/layer2.png">
+      <img data-depth="1.60" src="../assets/images/layer3.png">
+      <img data-depth="0.40" src="../assets/images/layer4.png">
+      <img data-depth="0.20" src="../assets/images/layer5.png">
+      <img data-depth="0.00" src="../assets/images/layer6.png">
+    </div>
+    <br>
+    <input type="checkbox" id="relative" checked>
+    <label for="relative">relativeInput</label>
+    <input type="checkbox" id="clip">
+    <label for="clip">clipRelativeInput</label>
+  </div>
+
+  <!-- Scripts -->
+  <script src="../../../../jquery/jquery-1.11.2.min.js"></script>
+  <script src="../../src/parallax.js"></script>
+  <script>
+
+  var scene = document.getElementById('scene');
+var parallaxInstance = new Parallax(scene);
+
+  </script>
+
+</body>
+</html>
