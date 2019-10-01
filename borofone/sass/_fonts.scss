@@ -3,9 +3,9 @@
 @font-face {
   font-family: 'icons-pack';
   src:
-    url('../fonts/icons-pack/icons-pack.ttf?4matzd') format('truetype'),
-    url('../fonts/icons-pack/icons-pack.woff?4matzd') format('woff'),
-    url('../fonts/icons-pack/icons-pack.svg?4matzd#icons-pack') format('svg');
+    url('../fonts/icons-pack/icons-pack.ttf?xnkopl') format('truetype'),
+    url('../fonts/icons-pack/icons-pack.woff?xnkopl') format('woff'),
+    url('../fonts/icons-pack/icons-pack.svg?xnkopl#icons-pack') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -26,6 +26,27 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.i-check-list:before {
+  content: "\e902";
+}
+.i-download:before {
+  content: "\e903";
+}
+.i-phone:before {
+  content: "\e904";
+}
+.i-liquidity:before {
+  content: "\e905";
+}
+.i-price:before {
+  content: "\e906";
+}
+.i-return-money:before {
+  content: "\e907";
+}
+.i-tax:before {
+  content: "\e908";
+}
 .i-left:before {
   content: "\e900";
 }

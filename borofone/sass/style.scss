@@ -1,3 +1,5 @@
+@import "vars";
+
 @import "base";
 @import "ui";
 @import "animation";
@@ -18,7 +20,7 @@
 
 // header
 .header {
-	height: 100%;
+	min-height: 100%;
 	overflow: hidden;
 	position: relative;
 	&__inner {
@@ -32,20 +34,8 @@
 		align-items: center;
 		padding: 15px 3.33%;
 		background-color: #fff;
-	}
-	&__call {
-		float: right;
-		line-height: 1.2;
-		&--title {
-			font-size: 14px;
-			opacity: .6;	
-		}
-		&--tel {
-			font-size: 20px;
-			color: #000;
-		}
-		&--link {
-			color: red;
+		& .request-call {
+			float: right;
 		}
 	}
 	&__content {
@@ -58,7 +48,7 @@
 		position: relative;
 	}
 	&__info {
-		padding: 0 0 10% 12%;
+		padding: 0 0 10% 10%;
 		max-width: 1100px;
 		& h1 {
 			font-size: 52px;
@@ -95,7 +85,7 @@
 
 		margin-right: 10%;
 		position: relative;
-		top: -120px;
+		top: 0;
 
 		&--picture {
 			display: flex;
@@ -188,16 +178,16 @@
 
 
 
-// .about
-.about {
-	height: 100%;
+// .brand
+.brand {
+	min-height: 100%;
 	padding: 70px 0 0;
 	& .container-1920px {
 		height: 100%;
 		position: static;
-		padding-left: 12%;
+		padding-left: 10%;
 	}
-	& .about__article {
+	& .brand__article {
 		padding-right: 19%;
 	}
 	& .pattern-circles--bg {
@@ -206,9 +196,10 @@
 		top: 30px; 
 	}
 }
-// end .about
+// end .brand
 
 
+// owl-carousel.owl-brand
 .owl-brand {
 	&:after {
 		content: '';
@@ -240,7 +231,481 @@
 			margin-right: 14px;
 		}
 	}
+	& .owl-stage-outer {
+		padding: 20px 0 30px 20px;
+	}
 }
-.owl-brand .owl-stage-outer {
-	padding: 20px 0 30px 20px;
+// end owl-carousel.owl-brand
+
+
+// owl-carousel.owl-review
+.owl-review {
+	width: 100%;
+	margin-left: -15px;
+	position: relative;
+	&:after {
+		content: '';
+		width: 425px;
+		height: 100%;
+		background: linear-gradient(to right, rgba(255,255,255,.4) 0%, rgba(255,255,255,1) 80%);
+		box-shadow: -20px 0 30px rgba(#fff, .4);
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+	&__item {
+		padding: 20px 15px;
+		font-size: 20px;
+		text-align: center;
+		& > div {
+			padding: 50px 30px 80px;
+			max-height: 100%;
+			background-color: #fff;
+			border-radius: 25px;
+			box-shadow: 0 5px 20px rgba(#000,.1);
+			overflow: hidden;
+			position: relative;
+		}
+	}
+	&__avatar {
+		display: block;
+		width: 190px;
+		height: 190px;
+		border-radius: 50%;
+		overflow: hidden;
+		margin:  0 auto;
+	}
 }
+// owl-carousel.owl-review
+
+
+// .review
+.review {
+	max-width: 1920px;
+	min-height: 100%;
+	margin: 0 auto;
+	padding: 70px 0 0 0;
+	position: relative;
+
+	&__content {
+		position: relative;
+		z-index: 1;
+	}
+
+	&__header {
+		padding-left: 10%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	& .container-1920px {
+		position: static;
+		padding-left: 10%;
+	}
+
+	& .pattern-circles--bg {
+		position: absolute;
+		left: 0;
+		bottom: 0;
+	}
+
+	& .owl-carousel.owl-review .owl-stage {
+		display: flex;
+		align-items: center;
+	}
+
+	& .m-tab {
+		padding-left: 10%;
+	}
+}
+// end .review
+
+
+// .advantages
+.advantages {
+	min-height: 100%;
+	margin: 0 auto;
+	position: relative;
+	font-size: 20px;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	& .container-1920px {
+		padding-left: 10%;
+	}
+	&__content {
+		width: 100%;
+		position: relative;
+		z-index: 1;
+	}
+	&__article {
+		padding: 35px 0;
+	}
+	&__features {
+		display: flex;
+		flex-wrap: wrap;
+		& li {
+			width: 50%;
+			padding: 25px 10% 25px 115px;
+			position: relative;
+			& [class*='i-'] {
+				position: absolute;
+				left: 0;
+				top: 25px;
+				font-size: 85px;
+				color: $red;
+				background: linear-gradient(to top,#b70400 0,#ff1812 100%);
+				-webkit-background-clip: text;
+				-webkit-text-fill-color: transparent;
+			}
+		}
+		& h3 {
+			font-size: 24px;
+			margin-bottom: 20px;
+		}
+		& p {
+			color: #181818;
+			font-size: 21px;
+			padding-right: 20px;
+		}
+	}
+	&__bg {
+		&--circle {
+			width: 916px;
+			height: 916px;
+			background-color: #f3f3f3;
+			border-radius: 50%;
+			position: absolute;
+			left: -272px;
+			top: 50%;
+			transform: translateY(-50%);
+			z-index: -1;
+		}
+	}
+	& .circle-pulse--wrap {
+		width: 620px;
+		height: 620px;
+		position: absolute;
+		right: 60px;
+		top: 0;
+		&:before {
+			content: '';
+			display: block;
+			width: 620px;
+			height: 620px;
+			background: #fff url('../img/advantages-img.jpg') no-repeat center;
+			border-radius: 50%;
+			position: relative;
+		}
+	}
+	& .circle-pulse {
+		animation: scaleIn2 6s infinite cubic-bezier(.36, .11, .89, .32);
+		border: 1px solid red;
+	}
+}
+// end .advantages
+
+
+// .about
+.about {
+	min-height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	& .container-1920px {
+		padding-left: 10%;
+	}
+	&__content {
+		width: 100%;
+		position: relative;
+	}
+	&__features {
+		max-width: 1350px;
+		display: flex;
+		flex-wrap: wrap;
+		font-size: 21px;
+		& li {
+			width: 33.3%;
+			padding-right: 80px;
+		}
+		& h4 {
+			font-size: 22px;
+			position: relative;
+			padding: 0 0 25px 45px;
+			margin: 0;
+		}
+		& .i-check-list {
+			position: absolute;
+			left: 0;
+			top: 0;
+			font-size: 30px;
+			color: $red;
+			background: linear-gradient(to top,#b70400 0,#ff1812 100%);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+		}
+	}
+	&__article {
+		padding: 0 16% 100px 0;
+		& p {
+			font-size: 21px;
+			margin-bottom: 20px;
+			letter-spacing: .03em;
+		}
+	}
+	& .block-brands {
+		position: absolute;
+		right: 0;
+		top: 50%;
+		transform: translateY(-50%);
+		z-index: -1;
+	}
+}
+// end .about
+
+
+// .catalog
+.catalog {
+	& .container-1920px {
+		padding-left: 10%;
+	}
+	&__inner {
+		position: relative;
+		padding-top: 160px;
+		& .hgroup-titles {
+			width: 100%;
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+	}
+	&__item {
+		background-color: #fff;
+		border-radius: 10px;
+		box-shadow: 0 5px 15px rgba(#000, .1);
+		overflow: hidden;
+		margin-bottom: 30px;
+		& picture {
+			display: block;
+			max-height: 300px;
+			overflow: hidden;
+		}
+		&--content {
+			padding: 20px 30px 30px;
+			& h3 {
+				margin-bottom: 20px;
+			}
+			& a {
+				color: inherit;
+				transition: .5s;
+				&:hover {
+					text-decoration: none;
+					color: $red;
+				}
+			}
+		}
+	}
+}
+// end .catalog
+
+
+.owl-catalog {
+	margin: 0 -15px;
+	&__item {
+		padding: 0 15px;
+	}
+	& .owl-nav {
+		position: absolute;
+		right: 435px;
+	    top: -123px;
+	}
+}
+
+
+// .download
+.download {
+	min-height: 100%;
+	max-width: 1920px;
+	margin: 0 auto;
+	background: #fff url('../img/bg-download.jpg') no-repeat center bottom;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	&:after {
+		content: '';
+		width: 100%;
+		height: 600px;
+		background: linear-gradient(to top, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+		position: absolute;
+		left: 0;
+		bottom: 200px;
+	}
+	&__bg-1 {
+		position: absolute;
+		left: 50%;
+		top: 5%;
+		margin-left: 230px;
+		width: 430px;
+		height: 200px;
+		z-index: 1;
+	}
+	&__bg-2 {
+		position: absolute;
+		right: 50%;
+		bottom: 5%;
+		margin-right: 230px;
+		width: 430px;
+		height: 200px;
+	} 
+	&__content {
+		position: relative;
+		z-index: 2;
+	}
+	&__form {
+		max-width: 1186px;
+		padding: 40px 50px;
+		background-color: #fff;
+		border-radius: 10px;
+		box-shadow: 0 5px 15px rgba(#000, .1);
+		& footer {
+			padding-top: 50px;
+			font-weight: 300;
+			color: #555;
+			& a {
+				color: inherit;
+				text-decoration: underline;
+				transition: .3s;
+				&:hover {
+					color: blue;
+				}
+			}
+		}
+		&--title {
+			margin: 0;
+			font-weight: 700;
+			font-size: 36px;
+			padding: 0 60px 20px;
+			line-height: 1.2;
+			& em {
+				color: $red;
+			}
+		}
+		&--subtitle {
+			margin: 0;
+			color: #333;
+			font-weight: 400;
+			font-size: 21px;
+		}
+		&--content {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-wrap: wrap;
+			padding-top: 50px;
+			& .input {
+				width: 420px;
+				margin: 0 15px 15px;
+			}
+			& .b-t-n {
+				width: 420px;
+				margin: 0 15px 15px;
+				top: 8px;
+				& .i-download {
+					position: absolute;
+					left: 40px;
+				}
+				& span {
+					width: 200px;
+					position: absolute;
+					left: 70px;
+				}
+			}
+		}
+	}
+}
+// end .download
+
+
+
+// .footer
+.footer {
+	height: 100%;
+	min-height: 600px;
+	&__top {
+		height: 56%;
+		display: flex;
+		align-items: center;
+		background: #e7e7e7;
+		& .container-1920px {
+			padding-left: 10%;
+			width: 100%;
+		}
+		& h2 {
+			font-size: 34px;
+			font-weight: 700;
+			margin-bottom: 20px;
+		}
+		& h3 {
+			color: #333;
+			font-weight: 400;
+			font-size: 25px;
+		}
+		& .b-t-n {
+			margin-top: 40px;
+		}
+	}
+	&__call {
+		height: 24%;
+		background: $red;
+		color: #fff;
+		& .container-1920px {
+			padding-left: 10%;
+			height: 100%;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+		}
+		&--phone {
+			& h4 {
+				font-size: 25px;
+				font-weight: 400;
+				margin: 0;
+			}
+			& strong {
+				font-size: 48px;
+			}
+		}
+		&--form {
+			padding-right: 50px;
+			& .input {
+				width: 420px;
+				margin: 0 10px;
+			}
+			& .b-t-n {
+				width: 420px;
+				margin: 0 10px;
+			}
+		}
+	}
+	&__bottom {
+		height: 20%;
+		& .container-1920px {
+			padding: 0 60px;
+			height: 100%;
+			& .row {
+				height: 100%;
+			}
+		} 
+	}
+	&-copy {
+		text-align: center;
+	}
+	& .request-call {
+		float: right;
+	}
+}
+// end .footer

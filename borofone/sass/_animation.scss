@@ -21,6 +21,17 @@
   }
 }
 
+@keyframes scaleIn2 {
+  from {
+    transform: scale(.9, .9);
+    opacity: .4;
+  }
+  to {
+    transform: scale(2.5, 2.5);
+    opacity: 0;
+  }
+}
+
 @keyframes pulse {
   0% {
     opacity: 0;
@@ -36,4 +47,10 @@
     background-position: center bottom;
     background-size: 0 auto;
   }
+}
+
+
+@keyframes showTab{
+  from {opacity: 0; transform: translateY(50px);}
+  to {opacity: 1; transform: translateY(0);}
 }

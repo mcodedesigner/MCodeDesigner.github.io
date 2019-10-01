@@ -18,8 +18,10 @@
 </head>
 
 <body>
+
 	<div class="fullpage">
-		<div class="section" id="section1">
+
+		<div class="section" id="section-header">
 			<!-- .header -->
 			<header class="header">
 				<div class="header__inner">
@@ -44,12 +46,12 @@
 								</div>
 								<!-- /.col-6 -->
 								<div class="col-3">
-									<div class="header__call">
-										<div><span class="header__call--title">Есть вопросы? Звоните</span></div>
-										<div><a href="tel:+7495-345-3535" class="header__call--tel"><strong>+7(495)345-35-35</strong></a></div>
-										<div><a href="#" class="header__call--link">Заказать звонок</a></div>
+									<div class="request-call">
+										<div><span class="request-call__title">Есть вопросы? Звоните</span></div>
+										<div><a href="tel:+7495-345-3535" class="request-call__tel"><strong>+7(495)345-35-35</strong></a></div>
+										<div><a href="#" class="request-call__link">Заказать звонок</a></div>
 									</div>
-									<!-- /.header__call -->
+									<!-- /.request-call -->
 								</div>
 								<!-- /.col-3 -->
 							</div>
@@ -157,10 +159,9 @@
 		</div>
 		<!-- /.section -->
 
-
-		<div class="section" id="section2">
-
-			<section class="about">
+		<div class="section" id="section-brand">
+			<!-- .brand -->
+			<section class="brand">
 				<div class="container-1920px">
 					<h6 class="section-title">
 						<div class="section-title--inner">
@@ -170,7 +171,7 @@
 					<div class="container-fluid">
 						<div class="row">
 							<div class="col-6">
-								<article class="about__article">
+								<article class="brand__article">
 									<hgroup class="hgroup-titles">
 										<h2>О бренде Borofone</h2>
 										<h3>Почему мы лучшие</h3>
@@ -196,7 +197,7 @@
 										модернизации соответствующий условий активизации.
 									</p>
 								</article>
-								<!-- /.about__article -->
+								<!-- /.brand__article -->
 							</div>
 							<!-- /.col-6 -->
 
@@ -209,6 +210,7 @@
 									<div class="owl-brand__item"><img src="img/brand-slides/1.jpg" alt="1"></div>
 									<div class="owl-brand__item"><img src="img/brand-slides/1.jpg" alt="1"></div>
 								</div>
+								<!-- /.owl-carousel /.owl-brand -->
 							</div>
 							<!-- /.col-6 -->
 						</div>
@@ -219,31 +221,568 @@
 					<div class="pattern-circles--bg size-430x210">
 					    <svg width="100%" height="100%">
 					        <defs>
-					            <pattern id="patterns-circles--dots" x="0" y="0" width="23" height="23" patternUnits="userSpaceOnUse">
+					            <pattern id="patterns-circles--dots-1" x="0" y="0" width="23" height="23" patternUnits="userSpaceOnUse">
 					                <circle fill="#fbd9d7" cx="7" cy="7" r="3" />
 					            </pattern>
 					        </defs>
 
-					        <rect x="0" y="0" width="100%" height="100%" fill="url(#patterns-circles--dots)" />
+					        <rect x="0" y="0" width="100%" height="100%" fill="url(#patterns-circles--dots-1)" />
 					    </svg>
 					</div>
+					<!-- /.pattern-circles--bg -->
 
 				</div>
 				<!-- /.container-1920px -->
 			</section>
-			<!-- /.about -->
+			<!-- /.brand -->
 			
 		</div>
 		<!-- /.section -->
 
+		<div class="section" id="section-review">
+			<!-- .review -->
+			<section class="review">
+				<h6 class="section-title">
+					<div class="section-title--inner">
+						<span>Отзывы</span>
+					</div>
+				</h6>
+				<main class="review__content">
+					<div class="m-code--tabs" id="our-product--tabs">
+						<header class="review__header"> 
+							<hgroup class="hgroup-titles">
+								<h2>Что о нас говорят</h2>
+								<h3>Отзывы наших клиентов</h3>
+								<hr class="identity-line">
+							</hgroup>
+							<nav class="m-tabs-nav">
+								<a href="#" class="m-tabs-nav__link is-active">Бизнес-партнеры</a>
+								<a href="#" class="m-tabs-nav__link">Покупатели</a>
+								<div class="m-tabs-nav-marker"></div>
+							</nav>
+							<!-- /.m-tabs-nav -->
+						</header>
+
+						<div class="m-tab is-active">
+							<div class="m-tab__content">
+								<div class="owl-carousel owl-review" id="owl-review__partners">
+									<div class="owl-review__item">
+										<div>
+											<picture class="owl-review__avatar">
+												<img src="img/avatar-1.jpg" alt="#">
+											</picture>
+											<div class="owl-review__name">
+												<h4>Алена К.</h4>
+												<p>Владелец бизнес</p>
+											</div>
+											<div class="review__description-1 to-expand">
+											    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris faucibus ligula vestibulum venenatis efficitur. Phasellus posuere urna et faucibus vestibulum. Duis quis eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris faucibus ligula vestibulum venenatis efficitur. Phasellus posuere urna et faucibus vestibulum. Duis quis eros.</p>
+											</div>
+										</div>
+									</div>
+									<!-- /.owl-review__item -->
+								</div>
+								<!-- /.owl-carousel /.owl-review -->
+							</div>
+							<!-- /.m-tab__content -->
+						</div>
+						<!-- /.m-tab -->
+
+						<div class="m-tab">
+							<div class="m-tab__content">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae obcaecati fugit, delectus quibusdam labore doloremque ducimus voluptatibus commodi adipisci ex consectetur, dolorum eveniet, cum cumque qui, alias quisquam deserunt. Esse commodi soluta earum unde aspernatur officiis aliquid odio totam magnam maiores facilis, voluptatum ratione possimus, beatae sed expedita nemo laborum nesciunt tenetur architecto aliquam iste. Adipisci illum, porro minima, laboriosam, vero dolorum rem labore aut sequi unde debitis ipsam. Delectus repudiandae velit, dicta, possimus officia ducimus recusandae quis at alias. Inventore reiciendis mollitia aliquid illo necessitatibus minima, nulla minus, voluptate qui vero, aperiam! Eveniet in eos incidunt quod excepturi quisquam fugiat quis quae ipsa at, qui esse impedit quo ut nulla nobis magnam suscipit mollitia perferendis repellat omnis ex consectetur saepe ipsum reprehenderit. Nesciunt aperiam laudantium optio dolores laborum ea dolorem magni explicabo! Amet, vitae voluptate magni nesciunt necessitatibus quidem veritatis eligendi in fuga facilis aspernatur quibusdam quae maxime repudiandae odit minima, excepturi sed! Pariatur dolorem similique eius qui expedita consequatur quis ea in obcaecati corporis suscipit quo veritatis, perspiciatis repellat sequi id amet at quibusdam facere eligendi, dignissimos aspernatur labore vitae autem. Voluptatibus aliquid necessitatibus ill1um consequatur id atque beatae ea non explicabo. Molestias quia, labore adipisci repudiandae libero.
+							</div>
+							<!-- m-tab__content -->
+						</div>
+						<!-- m-tab -->
+					</div> <!-- /.m-code--tabs -->
+				</main>
+				<!-- /.review__content -->
+
+				<div class="pattern-circles--bg size-430x210">
+				    <svg width="100%" height="100%">
+				        <defs>
+				            <pattern id="patterns-circles--dots-2" x="0" y="0" width="23" height="23" patternUnits="userSpaceOnUse">
+				                <circle fill="#fbd9d7" cx="7" cy="7" r="3" />
+				            </pattern>
+				        </defs>
+
+				        <rect x="0" y="0" width="100%" height="100%" fill="url(#patterns-circles--dots-2)" />
+				    </svg>
+				</div>
+				<!-- /.pattern-circles--bg -->
+			</section>
+			<!-- /.review -->
+		</div>
+		<!-- /.section -->
+
+		<div class="section" id="section-advantages">
+			<!-- .advantages -->
+			<section class="advantages">
+				<div class="advantages__content">
+					<div class="container-1920px">
+						<h6 class="section-title">
+							<div class="section-title--inner">
+								<span>Преимущества</span>
+							</div>
+						</h6>
+						<div class="row">
+							<div class="col-5">
+								<header class="advantages__header">
+									<hgroup class="hgroup-titles">
+										<h2>Преимущества</h2>
+										<h3>Почему нас выбирают</h3>
+										<hr class="identity-line">
+									</hgroup>
+								</header>
+								<article class="advantages__article">
+									<p>
+										У бренда Borofone есть шансы повторить или даже
+										превзойти успех HOCO.
+									</p>
+									<p>
+										Вы можете одним из первых начать продавать аксессуары
+										Borofone и получить высокие продажи и прибыль.
+									</p>
+									<p>
+										<strong>
+											Сейчас конкуренция невысока и поставщики предлагают
+											хорошие оптовые цены.
+										</strong>
+									</p>
+								</article>
+							</div>
+							<!-- /.col-5 -->
+						</div>
+						<!-- /.row -->
+						<ul class="advantages__features">
+							<li>
+								<i class="i-liquidity"></i>
+								<h3>Высокая ликвидность</h3>
+								<p>
+									Гарантия качества - 25 лет! Сваи защищены от
+									коррози методом горячего оцинкования
+								</p>
+							</li>
+							<li>
+								<i class="i-return-money"></i>
+								<h3>Низкий процент брака</h3>
+								<p>
+									Гарантия качества - 25 лет! Сваи защищены от
+									коррози методом горячего оцинкования
+								</p>
+							</li>
+							<li>
+								<i class="i-price"></i>
+								<h3>Цена ниже</h3>
+								<p>
+									Гарантия качества - 25 лет! Сваи защищены от
+									коррози методом горячего оцинкования
+								</p>
+							</li>
+							<li>
+								<i class="i-tax"></i>
+								<h3>Маржинальность > 200%</h3>
+								<p>
+									Гарантия качества - 25 лет! Сваи защищены от
+									коррози методом горячего оцинкования
+								</p>
+							</li>
+						</ul>
+						<!-- /.advantages__features -->
+					</div>
+					<!-- /.container-1920px -->
+				</div>
+				<!-- /.advantages__content -->
+				<div class="advantages__bg">
+					<div class="advantages__bg--circle"></div>
+					<div class="circle-pulse--wrap">
+						<span class="circle-pulse" style="animation-delay: -3s"></span>
+						<span class="circle-pulse" style="animation-delay: 0s"></span>
+					</div>
+				</div>
+				<!-- /.advantages__bg -->
+			</section>
+			<!-- /.advantages -->
+		</div>
+		<!-- /.section -->
+
+		<div class="section" id="section-about">
+			<!-- .about -->
+			<section class="about">
+				<div class="about__content">
+					<div class="container-1920px">
+						<h6 class="section-title">
+							<div class="section-title--inner">
+								<span>О нас</span>
+							</div>
+						</h6>
+						<hgroup class="hgroup-titles">
+							<div class="row">
+								<div class="col-6">
+									<h2>Более 10 лет на рынке</h2>
+									<h3>Кто мы, и что предлагаем оптовым покупателям?</h3>
+									<hr class="identity-line">
+								</div>
+							</div>
+						</hgroup>
+						<article class="about__article">
+							<div class="row">
+								<div class="col-6">
+									<p>
+										Мы - бывший крупный оптовый поставщик аксессуаров для
+										телефонов с 2008 года. Мы вывели на Российский рынок
+										такие бренды как HOCO, Inkax и другие. <br>
+										Годы работы в оптовом бизнесе дали нам понять, с какими
+										трудностями и сложностями сталкиваются наши клиенты.
+									</p>
+									<p>
+										Поэтому мы создали оптовую интернет-площадку MicroUSB, на
+										которой мы постоянно размещаем товары самых разных
+										поставщиков аксесуаров, благодаря чему мы можем
+										предложить оптовым покупателям самый полный ассортимент
+										аксессуаров для заказа в одном месте, а также гибкие условия
+										по цене.
+									</p>
+								</div>
+							</div>
+						</article>
+						<ul class="about__features">
+							<li>
+								<h4><i class="i-check-list"></i>Провереные поставщики</h4>
+								<p>
+									Более 15+ крупных оптовых
+									поставщиков из Китая со складами
+									в Москве
+								</p>
+							</li>
+							<li>
+								<h4><i class="i-check-list"></i>Цены, которые вас устроят</h4>
+								<p>
+									Благодаря разным поставщикам
+									аксессуаров можем предложить
+									оптимальную для вас цену
+								</p>
+							</li>
+							<li>
+								<h4><i class="i-check-list"></i>Полный ассортимент</h4>
+								<p>
+									Обеспечим ваш бизнес полным
+									ассортиментом аксессуаров HOCO
+									и Borofone и других
+								</p>
+							</li>
+						</ul>
+						<div class="block-brands">
+							<div class="block-brands__inner">
+
+								<i class="logo-baseus"></i>
+								<i class="logo-awei"></i>
+								<i class="logo-borofone"></i>
+								<i class="logo-inkax"></i>
+								<i class="logo-inkax"></i>
+								<i class="logo-hoco"></i>
+
+								<div class="block-brands__circle"></div>
+							</div>
+							<!-- /.block-brands__inner -->
+						</div>
+						<!-- /.block-brands -->
+					</div>
+					<!-- /.container-1920px -->
+				</div>
+				<!-- /.about__content -->
+			</section>
+			<!-- /.about -->
+		</div>
+		<!-- /.section -->
+
+		<div class="section" id="section-catalog">
+			<!-- .catalog -->
+			<section class="catalog">
+				<div class="container-1920px">
+					<h6 class="section-title">
+						<div class="section-title--inner">
+							<span>Каталог</span>
+						</div>
+					</h6>
+					<div class="catalog__inner">
+						<hgroup class="hgroup-titles">
+							<div class="row">
+								<div class="col-6">
+									<h2>Каталог</h2>
+									<h3>Наша продукция</h3>
+									<hr class="identity-line">
+								</div>
+							</div>
+						</hgroup>
+						<div class="owl-carousel owl-catalog" id="owl-catalog">
+							<div class="owl-catalog__item">
+								<div>
+									<div class="catalog__item">
+										<picture>
+											<img src="img/catalog-img--1.jpg" alt="#">
+										</picture>
+										<div class="catalog__item--content">
+											<h3>Наушники</h3>
+											<a href="#"><i class="i-download"></i> Скачать прайс</a>
+										</div>
+									</div>
+									<!-- /.catalog__item -->
+									<div class="catalog__item">
+										<picture>
+											<img src="img/catalog-img--1.jpg" alt="#">
+										</picture>
+										<div class="catalog__item--content">
+											<h3>Наушники</h3>
+											<a href="#"><i class="i-download"></i> Скачать прайс</a>
+										</div>
+									</div>
+									<!-- /.catalog__item -->
+								</div>
+							</div>
+							<!-- /.owl-catalog__item -->
+							<div class="owl-catalog__item">
+								<div>
+									<div class="catalog__item">
+										<picture>
+											<img src="img/catalog-img--1.jpg" alt="#">
+										</picture>
+										<div class="catalog__item--content">
+											<h3>Наушники</h3>
+											<a href="#"><i class="i-download"></i> Скачать прайс</a>
+										</div>
+									</div>
+									<!-- /.catalog__item -->
+									<div class="catalog__item">
+										<picture>
+											<img src="img/catalog-img--1.jpg" alt="#">
+										</picture>
+										<div class="catalog__item--content">
+											<h3>Наушники</h3>
+											<a href="#"><i class="i-download"></i> Скачать прайс</a>
+										</div>
+									</div>
+									<!-- /.catalog__item -->
+								</div>
+							</div>
+							<!-- /.owl-catalog__item -->
+							<div class="owl-catalog__item">
+								<div>
+									<div class="catalog__item">
+										<picture>
+											<img src="img/catalog-img--1.jpg" alt="#">
+										</picture>
+										<div class="catalog__item--content">
+											<h3>Наушники</h3>
+											<a href="#"><i class="i-download"></i> Скачать прайс</a>
+										</div>
+									</div>
+									<!-- /.catalog__item -->
+									<div class="catalog__item">
+										<picture>
+											<img src="img/catalog-img--1.jpg" alt="#">
+										</picture>
+										<div class="catalog__item--content">
+											<h3>Наушники</h3>
+											<a href="#"><i class="i-download"></i> Скачать прайс</a>
+										</div>
+									</div>
+									<!-- /.catalog__item -->
+								</div>
+							</div>
+							<!-- /.owl-catalog__item -->
+							<div class="owl-catalog__item">
+								<div>
+									<div class="catalog__item">
+										<picture>
+											<img src="img/catalog-img--1.jpg" alt="#">
+										</picture>
+										<div class="catalog__item--content">
+											<h3>Наушники</h3>
+											<a href="#"><i class="i-download"></i> Скачать прайс</a>
+										</div>
+									</div>
+									<!-- /.catalog__item -->
+									<div class="catalog__item">
+										<picture>
+											<img src="img/catalog-img--1.jpg" alt="#">
+										</picture>
+										<div class="catalog__item--content">
+											<h3>Наушники</h3>
+											<a href="#"><i class="i-download"></i> Скачать прайс</a>
+										</div>
+									</div>
+									<!-- /.catalog__item -->
+								</div>
+							</div>
+							<!-- /.owl-catalog__item -->
+							<div class="owl-catalog__item">
+								<div>
+									<div class="catalog__item">
+										<picture>
+											<img src="img/catalog-img--1.jpg" alt="#">
+										</picture>
+										<div class="catalog__item--content">
+											<h3>Наушники</h3>
+											<a href="#"><i class="i-download"></i> Скачать прайс</a>
+										</div>
+									</div>
+									<!-- /.catalog__item -->
+									<div class="catalog__item">
+										<picture>
+											<img src="img/catalog-img--1.jpg" alt="#">
+										</picture>
+										<div class="catalog__item--content">
+											<h3>Наушники</h3>
+											<a href="#"><i class="i-download"></i> Скачать прайс</a>
+										</div>
+									</div>
+									<!-- /.catalog__item -->
+								</div>
+							</div>
+							<!-- /.owl-catalog__item -->
+						</div>
+						<!-- /.owl-carousel /.owl-catalog -->
+					</div>
+					<!-- /.catalog__inner -->
+				</div>
+				<!-- /.container-1920px -->
+			</section>
+			<!-- /.catalog -->
+		</div>
+		<!-- /.section -->
+
+		<div class="section" id="section-download">
+			<!-- .download -->
+			<section class="download">
+				<div class="download__content">
+					<form action="#" class="download__form">
+						<h2 class="download__form--title">
+							Скачайте полный каталог мобильных
+							аксессуаров <em>с описанием и ценами</em>
+						</h2>
+						<h4 class="download__form--subtitle">Каталог будет автоматически выслан на ваш e-mail</h4>
+						<div class="download__form--content">
+							<input class="input" type="text" name="name" placeholder="Имя">
+							<input class="input" type="email" name="email" placeholder="E-mail">
+							<input class="input" type="tel" name="tel" placeholder="Телефон">
+							<button type="submit" class="b-t-n gift">
+								<i class="i-download"></i>
+								<span>Скачать каталог</span>
+							</button>
+						</div>
+						<footer>
+							<p>Нажмимая на кнопку, вы даёте согласие на обработку <a href="#">персональных данных</a></p>
+						</footer>
+					</form>
+				</div>
+				<!-- /.download__content -->
+				<div class="download__bg-1">
+					<svg width="100%" height="100%">
+					    <defs>
+					        <pattern id="patterns-circles--dots-3" x="0" y="0" width="23" height="23" patternUnits="userSpaceOnUse">
+					            <circle fill="#f91a1b" fill-opacity="0.3" cx="7" cy="7" r="2.5" />
+					        </pattern>
+					    </defs>
+
+					    <rect x="0" y="0" width="100%" height="100%" fill="url(#patterns-circles--dots-3)" />
+					</svg>
+				</div>
+				<!-- /.download__bg-1 -->
+				<div class="download__bg-2">
+					<svg width="100%" height="100%">
+					    <defs>
+					        <pattern id="patterns-circles--dots-3" x="0" y="0" width="23" height="23" patternUnits="userSpaceOnUse">
+					            <circle fill="#f91a1b" fill-opacity="0.3" cx="7" cy="7" r="2.5" />
+					        </pattern>
+					    </defs>
+
+					    <rect x="0" y="0" width="100%" height="100%" fill="url(#patterns-circles--dots-3)" />
+					</svg>
+				</div>
+				<!-- /.download__bg-2 -->
+			</section>
+			<!-- /.download -->
+		</div>
+		<!-- /.section -->
+
+		<div class="section" id="section-footer">
+			<footer class="footer">
+				<section class="footer__top">
+					<div class="container-1920px">
+						<div class="row">
+							<div class="col-5">
+								<h2>
+									Нам важно понять, чего вы хотите и
+									какое мы можем сделать вам
+									<em class="color-red">предложение</em>
+								</h2>
+								<h3>
+									Пройдите тест из 5 вопросов и мы вышлем вам
+									уникальное коммерческое предложение
+								</h3>
+								<a href="#" class="b-t-n text">
+									<strong class="b-t-n--bold">получить</strong>
+									<span class="b-t-n--text">коммерческое предложение</span>
+								</a>
+							</div>
+							<!-- /.col-5 -->
+						</div>
+						<!-- /.row -->
+					</div>
+					<!-- /.container-1920px -->
+				</section>
+				<!-- /.footer__top -->
+				<section class="footer__call">
+					<div class="container-1920px">
+						<div class="footer__call--phone">
+							<h4>Остались вопросы? Звоните!</h4>
+							<strong>+7(499)399-35-09</strong>
+						</div>
+						<form action="#" class="footer__call--form">
+							<input type="text" class="input white" placeholder="Телефон">
+							<button type="submit" class="b-t-n white">
+								<span>Заказать звонок</span>
+							</button>
+						</form>
+					</div>
+					<!-- /.container-1920px -->
+				</section>
+				<!-- /.footer__call -->
+				<section class="footer__bottom">
+					<div class="container-1920px">
+						<div class="row align-items-center">
+							<div class="col-4">
+								<div class="footer-logo"><img src="img/logo-footer.jpg" alt="#"></div>
+							</div>
+							<!-- /.col-4 -->
+							<div class="col-4">
+								<div class="footer-copy">&copy; Все права защищены</div>
+							</div>
+							<!-- /.col-4 -->
+							<div class="col-4">
+								<div class="request-call">
+								 	<div><span class="request-call__title">Есть вопросы? Звоните</span></div>
+								 	<div><a href="tel:+7495-345-3535" class="request-call__tel"><strong>+7(495)345-35-35</strong></a></div>
+								 	<div><a href="#" class="request-call__link">Заказать звонок</a></div>
+								</div>
+								<!-- /.request-call -->
+							</div>
+							<!-- /.col-4 -->
+						</div>
+						<!-- /.row -->
+					</div>
+					<!-- /.container-1920px -->
+				</section>
+				<!-- /.footer__bottom -->
+			</footer>
+			<!-- /.footer -->
+		</div>
+		<!-- /.section -->
+
 	</div>
-	
-
-	<!-- .brand -->
-	<section class="brand">
-
-	</section>
-	<!-- /.brand -->
+	<!-- /.fullpage -->
 
 	<script src="js/scripts.min.js"></script>
 
