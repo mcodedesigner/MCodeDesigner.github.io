@@ -1,0 +1,141 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?dby3i8');
+  src:  url('fonts/icomoon.eot?dby3i8#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?dby3i8') format('truetype'),
+    url('fonts/icomoon.woff?dby3i8') format('woff'),
+    url('fonts/icomoon.svg?dby3i8#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="i-"], [class*=" i-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.i-print:before {
+  content: "\e923";
+}
+.i-double-left-arrows:before {
+  content: "\e924";
+}
+.i-double-right-arrows:before {
+  content: "\e925";
+}
+.i-basket:before {
+  content: "\e900";
+}
+.i-brick:before {
+  content: "\e901";
+}
+.i-calculator:before {
+  content: "\e902";
+}
+.i-calendar:before {
+  content: "\e903";
+}
+.i-diamond:before {
+  content: "\e904";
+}
+.i-diploma:before {
+  content: "\e905";
+}
+.i-doc:before {
+  content: "\e906";
+}
+.i-down:before {
+  content: "\e907";
+}
+.i-engineer:before {
+  content: "\e908";
+}
+.i-envelope:before {
+  content: "\e909";
+}
+.i-evaporation:before {
+  content: "\e90a";
+}
+.i-factory:before {
+  content: "\e90b";
+}
+.i-heavy-weight:before {
+  content: "\e90c";
+}
+.i-inbox:before {
+  content: "\e90d";
+}
+.i-left:before {
+  content: "\e90e";
+}
+.i-left-arrow:before {
+  content: "\e90f";
+}
+.i-location:before {
+  content: "\e910";
+}
+.i-manager:before {
+  content: "\e911";
+}
+.i-old-typical-phone:before {
+  content: "\e912";
+}
+.i-pallet:before {
+  content: "\e913";
+}
+.i-phone:before {
+  content: "\e914";
+}
+.i-phone-call:before {
+  content: "\e915";
+}
+.i-pin:before {
+  content: "\e916";
+}
+.i-play:before {
+  content: "\e917";
+}
+.i-pointing-to-right:before {
+  content: "\e918";
+}
+.i-pptx:before {
+  content: "\e919";
+}
+.i-right:before {
+  content: "\e91a";
+}
+.i-right-arrow:before {
+  content: "\e91b";
+}
+.i-send:before {
+  content: "\e91c";
+}
+.i-shipped:before {
+  content: "\e91d";
+}
+.i-snowflake:before {
+  content: "\e91e";
+}
+.i-thermometer:before {
+  content: "\e91f";
+}
+.i-time:before {
+  content: "\e920";
+}
+.i-time-passing:before {
+  content: "\e921";
+}
+.i-weight-tool:before {
+  content: "\e922";
+}
